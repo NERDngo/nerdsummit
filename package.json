@@ -1,27 +1,28 @@
 {
-  "name": "nerdsummit2020",
+  "name": "nerdsummit",
   "version": "1.0.0",
   "description": "This is the codebase for the NERD Summit website: https://nerdsummit.org/",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NERDngo/nerdsummit2020.git"
+    "url": "git+https://github.com/NERDngo/nerdsummit.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/NERDngo/nerdsummit2020/issues"
+    "url": "https://github.com/NERDngo/nerdsummit/issues"
   },
-  "homepage": "https://github.com/NERDngo/nerdsummit2020#readme",
+  "homepage": "https://github.com/NERDngo/nerdsummit#readme",
   "devDependencies": {
-    "autoprefixer": "^9.7.0",
-    "cssnano": "^4.1.10",
+    "autoprefixer": "^10.4.0",
+    "cssnano": "^5.0.13",
     "gulp": "^4.0.2",
-    "gulp-postcss": "^8.0.0",
-    "gulp-sass": "^4.0.2",
-    "gulp-sourcemaps": "^2.6.5"
+    "gulp-postcss": "^9.0.1",
+    "gulp-sass": "^5.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "sass": "^1.45.0"
   }
 }

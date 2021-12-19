@@ -1,13 +1,13 @@
 // Gulpfile adapted from https://goede.site/setting-up-gulp-4-for-automatic-sass-compilation-and-css-injection
 
 var gulp = require("gulp");
-var sass = require("gulp-sass");
 var postcss = require("gulp-postcss");
 var autoprefixer = require("autoprefixer");
 var cssnano = require("cssnano");
+var sass = require("gulp-sass")(require("sass"));
 var sourcemaps = require("gulp-sourcemaps");
 
-function style() {
+async function style() {
   return (
     gulp.src("sass/**/*.scss")
       // Initialize sourcemaps before compilation starts
@@ -24,7 +24,7 @@ function style() {
   );
 }
 
-function watch() {
+async function watch() {
   gulp.watch("sass/**/*.scss", style);
 }
 
