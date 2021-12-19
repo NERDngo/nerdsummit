@@ -1,6 +1,7 @@
 .billboard {
-  margin: auto;
   $_parent: &;
+
+  margin: auto;
   padding: 90px 0;
 
   @media (min-width: $tablet) {
@@ -37,14 +38,12 @@
   }
 
   &--summit {
-    background: $jumpsuit-blue;
+    background: $dos-black;
     padding-top: 165px;
     padding-bottom: 150px;
   }
 
   &--sessions {
-    //background: url(../images/background-yellow.jpg);
-    //background-size: 100%;
     background-color: $rover-light-gold;
 
     .billboard__button-container {
@@ -84,9 +83,6 @@
       padding-bottom: 160px;
     }
 
-    img {
-      //margin-bottom: 60px;
-    }
     .sponsor {
       width: 300px;
       margin-left: 20px;
@@ -167,14 +163,12 @@
   }
 
   &--contact {
-    //background: url(../images/background-purple.jpg);
-    //background-size: 100%;
     background-color: $rover-light-gold;
   }
 
   &__callout {
     font-size: 21px;
-    font-weight: 500;
+    font-weight: 400;
     margin-bottom: 25px;
     color: white;
 
@@ -182,24 +176,22 @@
       font-size: 24px;
       margin-bottom: 35px;
     }
+
+    .billboard--summit & {
+      color: $pacman-yellow;
+    }
   }
 
   &__header {
-    color: white;
-    font-size: 34px;
-    font-weight: 900;
+    font-family: $header-font-family;
+    font-size: 48px;
+    font-weight: 400;
     line-height: 1.1;
     padding-bottom: 25px;
-    &--blue {
-      color: $jumpsuit-blue;
-      @media (min-width: $tablet) {
-      font-size: 48px;
-      padding-bottom: 35px;
-      }
-    }
+    color: $cloud-blue;
 
     @media (min-width: $tablet) {
-      font-size: 48px;
+      font-size: 64px;
       padding-bottom: 35px;
     }
   }
@@ -401,7 +393,6 @@
     }
   }
 }
-
 
 // TODO create a new partial for nerdy stuff
 .nerdy {

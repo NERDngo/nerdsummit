@@ -20,7 +20,7 @@ async function style() {
 
       // Now add/write the sourcemaps
       .pipe(sourcemaps.write())
-      .pipe(gulp.dest("css-new"))
+      .pipe(gulp.dest("css-2022"))
   );
 }
 

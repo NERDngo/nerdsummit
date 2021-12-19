@@ -4,6 +4,16 @@ $nerd-yellow: #F9F7F0;
 $nerd-purple: #ECF1FD;
 $nerd-blue--dark: #2027bd;
 
+// 2022 colors:
+$dos-black: #212121;
+$cloud-blue: #00ffff;
+$mars-red: #d83904;
+$water-blue: #00009b;
+$pacman-yellow: #ffff00;
+$kirby-pink: #ffa09f;
+$galaga-green: #00ff00;
+$dialog-grey-light: #efefef;
+
 // 2021 colors:
 $jumpsuit-blue: #17355D;
 $jumpsuit-light-blue: #299FE1;
@@ -11,7 +21,6 @@ $jumpsuit-very-light-blue: #EAF5FC;
 $mars-red: #D83904;
 $rover-gold: #FFC700;
 $rover-light-gold: #FFF9E4;
-
 
 // Breakpoints 
 $mobile: 600px;
@@ -21,4 +30,6 @@ $full-header-width: 100%;
 
 // Fonts
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 $base-font-family: 'Montserrat', sans-serif;
+$header-font-family: 'VT323', monospace;
