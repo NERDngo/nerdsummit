@@ -4,21 +4,25 @@
   width: 100%;
   text-align: center;
   justify-content: center;
+
   li:last-child {
     display: inline-block;
     color: #FAF8F2;
     align-content: flex-end;
     margin-left: 100px;
     text-transform: uppercase;
-    a{
+
+    a {
       color: rgb(255, 229, 227);
       font-size: 16px;
       font-weight: bold;
       padding:4px 16px;;
     }
+
     @media (max-width: 958px) {
-    margin-left: 0;
+      margin-left: 0;
     }
+
     @media (max-width: 1200px) {
      display: none;
     }
@@ -31,7 +35,7 @@
      display: none;
     }
     
-    a{
+    a {
       font-weight: lighter;
       transition: border-bottom .2s;
       &:hover {

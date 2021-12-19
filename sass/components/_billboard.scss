@@ -1,3 +1,7 @@
+// billboard-hero (wider space, larger header)
+// billboard (just the typical style, everything is centered)
+// billboard-content-end (sessions)
+
 .billboard {
   $_parent: &;
 
@@ -5,36 +9,7 @@
   padding: 90px 0;
 
   @media (min-width: $tablet) {
-    padding: 130px 0;
-  }
-
-  &__inner {
-    @extend %inner-width;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    text-align: center;
-    padding: 0 20px;
-    position: relative;
-
-    @media (min-width: $tablet) {
-      padding: 0;
-    }
-
-    // Sessions billboard is not centered
-    #{$_parent}--sessions & {
-      text-align: left;
-    }
-  }
-
-  &__narrow {
-    max-width: 750px;
-
-    #{$_parent}--sessions & {
-      max-width: 840px;
-    }
+    padding: 120px 0;
   }
 
   &--summit {
@@ -53,76 +28,24 @@
 
   &--location {
     background-color: $nerd-purple;
-
-    @media (min-width: $tablet) {
-      padding-top: 0;
-    }
-
-    #{$_parent}__inner {
-      @media (min-width: $tablet) {
-        // background-image: url(../images/nerdy-recipes.png);
-        // background-repeat: no-repeat;
-        // background-position: top right;
-        // background-size: 220px;
-      }
-    }
-
-    #{$_parent}__narrow {
-      @media (min-width: $tablet) {
-        padding-top: 130px;
-      }
-    }
-
-    p:last-of-type {
-      margin-bottom: 0;
-    }
   }
 
   &--sponsors {
-    @media (min-width: $tablet) {
-      padding-bottom: 160px;
-    }
 
     .sponsor {
       width: 300px;
       margin-left: 20px;
       margin-right: 20px;
       text-align: center;
-      a:not(.billboard__button) {
-        font-size: 12px;
-        font-weight: 900;
-        color: black;
-        text-transform: uppercase;
-        text-decoration: none;
-        transition: border-bottom .2s;
-        &:hover {
-          border-bottom: solid 3px $nerd-blue--dark;
-          color: black;
-        }
-      }
-      img {
-        width: 100%;
-        height: auto;
-      }
     }
+
     .supporter {
       width: 300px;
       margin-left: 20px;
       margin-right: 20px;
       text-align: center;
       min-height: 100px;
-      a:not(.billboard__button) {
-        font-size: 16px;
-        font-weight: 900;
-        color: black;
-        text-transform: uppercase;
-        text-decoration: none;
-        transition: border-bottom .2s;
-        &:hover {
-          border-bottom: solid 3px $nerd-blue--dark;
-          color: black;
-        }
-      }
+
       p {
         font-size: 16px;
         font-weight: 900;
@@ -132,34 +55,11 @@
         transition: border-bottom .2s;
         margin: 0 20px;
       }
-      img {
-        width: 100%;
-        height: auto;
-      }
     }
   }
 
   &--about {
     background-color: $jumpsuit-very-light-blue;
-
-    @media (min-width: $tablet) {
-      padding-bottom: 0;
-    }
-
-    #{$_parent}__inner {
-      @media (min-width: $tablet) {
-        // background-image: url(../images/nerdy-dough.png);
-        // background-repeat: no-repeat;
-        // background-position: bottom right;
-        // background-size: 443px;
-      }
-    }
-
-    #{$_parent}__columns {
-      @media (min-width: $tablet) {
-        padding-bottom: 90px;
-      }
-    }
   }
 
   &--contact {
@@ -186,7 +86,7 @@
     font-family: $header-font-family;
     font-size: 48px;
     font-weight: 400;
-    line-height: 1.1;
+    line-height: 1;
     padding-bottom: 25px;
     color: $cloud-blue;
 
@@ -250,34 +150,16 @@
   }
 
   &__button {
-    font-size: 16px;
-    border: solid 3px $mars-red;
+    font-size: 21px;
+    border: 0;
     padding: 4px 16px;
     display: inline-block;
     text-decoration: none;
-    font-weight: 700;
-    text-transform: uppercase;
     transition: all .3s;
-
-    &--primary {
-      background-color: $mars-red;
-      color: white;
-
-      &:hover {
-        background-color: black;
-        border-color: black;
-      }
-    }
-
-    &--outline {
-      border: 3px solid $mars-red;
-      color: white;
-
-      &:hover {
-        background-color: black;
-        border-color: black;
-      }
-    }
+    background-color: $pacman-yellow;
+    font-family: $header-font-family;
+    color: $water-blue;
+    white-space: nowrap;
 
     &--secondary {
       background-color: transparent;
@@ -288,6 +170,21 @@
         border-color: black;
       }
     }
+
+    &--tertiary {
+      padding: 8px 16px;
+      background-color: $mars-red;
+      font-family: $base-font-family;
+      color: white;
+    }
+  }
+
+  &__button-text {
+    background-color: $pacman-yellow;
+    margin-left: -25px;
+    margin-right: -25px;
+    padding-left: 25px;
+    padding-right: 25px;
   }
 
   &__wrapper {
@@ -320,7 +217,6 @@
       display: flex;
       align-items: flex-start;
       justify-content: center;
-      margin-top: 35px;
 
       > div {
         flex-basis: 50%;
@@ -333,7 +229,6 @@
         display: flex;
         align-items: flex-start;
         justify-content: center;
-        margin-top: 35px;
 
         > div:first-child {
           flex-basis: 55%;
@@ -350,7 +245,6 @@
         display: flex;
         align-items: flex-start;
         justify-content: center;
-        margin-top: 35px;
 
         > div:first-child {
           flex-basis: 45%;
@@ -394,40 +288,24 @@
   }
 }
 
-// TODO create a new partial for nerdy stuff
-.nerdy {
-  &__hero {
-    display: none;
+.billboard__inner {
+    margin: auto;
+    max-width: 768px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+    padding: 0 20px;
+    position: relative;
 
     @media (min-width: $tablet) {
-      display: inline;
-      width: 400px; //240px;
-      position: absolute;
-      bottom:-200px;
-      right: 0px;
-    }
-  }
-
-  &__sessions {
-    display: none;
-
-    @media (min-width: $tablet) {
-      display: inline;
-      width: 600px; //430px; 
-      margin-top: -80px;
+      padding: 0;
     }
 
-  }
-
-  &__sponsors {
-    display: none;
-
-    @media (min-width: $tablet) {
-      display: inline;
-      width: 480px;
-      position: absolute;
-      bottom:-325px;
-      left: 0;
+    // Sessions billboard is not centered
+    .billboard--sessions & {
+      text-align: left;
     }
   }
-}
