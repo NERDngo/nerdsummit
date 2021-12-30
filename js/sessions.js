@@ -25,13 +25,32 @@ loadJSON(function (response) {
     }
 });
 
-// see https://stackoverflow.com/a/34908037/5855010
+// see https://stackoverflow.com/a/34908037/5855010  (original link for how to do this)
 function loadJSON(callback) {
     var xobj = new XMLHttpRequest();
     xobj.overrideMimeType("application/json");
-    //xobj.open('GET', 'https://spreadsheets.google.com/feeds/cells/17EDt6Pu6xefcwT2C1UsYB7m0Ek-Vb1Us8Azfn3a_eso/1/public/full?alt=json', true);
-    xobj.open('GET', 'https://spreadsheets.google.com/feeds/cells/1J26Xaz21Kdo9mnlT2kbjcOf2Ce11kopnRUFZrWRRpAA/1/public/full?alt=json', true);
-   
+    // from 2020
+    // xobj.open('GET', 'https://spreadsheets.google.com/feeds/cells/17EDt6Pu6xefcwT2C1UsYB7m0Ek-Vb1Us8Azfn3a_eso/1/public/full?alt=json', true);
+    // from 2021, no longer works becuase Google Sheets API V3 was shut down in August 2021
+    // xobj.open('GET', 'https://spreadsheets.google.com/feeds/cells/1J26Xaz21Kdo9mnlT2kbjcOf2Ce11kopnRUFZrWRRpAA/1/public/full?alt=json', true);
+    
+    // 2022 - using 2021 sheet for testing, will create 2022 sheet later 
+    // this seems to work but is in a different format so parsing needs to change 
+    xobj.open('GET', 'https://sheets.googleapis.com/v4/spreadsheets/1J26Xaz21Kdo9mnlT2kbjcOf2Ce11kopnRUFZrWRRpAA/values/Sheet1?key=AIzaSyBESG10ps9gmorRl7ZAKWfYeM-3vRJL4lk', true);
+    
+    // 2022 NOTES
+    // Google Sheets API changed from V3 to V4
+    // found this page on how to do it with new V4: https://newbedev.com/accessing-a-new-style-public-google-sheet-as-json
+    // https://sheets.googleapis.com/v4/spreadsheets/SPREADSHEET_ID/values/RANGE?key=API_KEY
+    // ^ note for RANGE you can use a sheet ID such as Sheet1 
+    // Sheet ID for 2021 is this: 1J26Xaz21Kdo9mnlT2kbjcOf2Ce11kopnRUFZrWRRpAA
+    // API Key is: AIzaSyBESG10ps9gmorRl7ZAKWfYeM-3vRJL4lk
+    // so this works for returning JSON:
+    // https://sheets.googleapis.com/v4/spreadsheets/1J26Xaz21Kdo9mnlT2kbjcOf2Ce11kopnRUFZrWRRpAA/values/Sheet1?key=AIzaSyBESG10ps9gmorRl7ZAKWfYeM-3vRJL4lk
+    // however parsing needs to change 
+    // this is the regular share link to the 2021 spreadsheet 
+    // https://docs.google.com/spreadsheets/d/1J26Xaz21Kdo9mnlT2kbjcOf2Ce11kopnRUFZrWRRpAA/edit?usp=sharing
+
     xobj.onreadystatechange = function () {
         if (xobj.readyState == 4 && xobj.status == "200") {
             // .open will NOT return a value but simply returns undefined in async mode so use a callback
