@@ -36,7 +36,7 @@ function loadJSON(callback) {
     
     // 2022 - using 2021 sheet for testing, will create 2022 sheet later 
     // this seems to work but is in a different format so parsing needs to change 
-    xobj.open('GET', 'https://sheets.googleapis.com/v4/spreadsheets/1J26Xaz21Kdo9mnlT2kbjcOf2Ce11kopnRUFZrWRRpAA/values/Sheet1?key=AIzaSyBESG10ps9gmorRl7ZAKWfYeM-3vRJL4lk', true);
+    xobj.open('GET', 'https://sheets.googleapis.com/v4/spreadsheets/1J26Xaz21Kdo9mnlT2kbjcOf2Ce11kopnRUFZrWRRpAA/values/Sheet1?key=APIKEY', true);
     
     // 2022 NOTES
     // Google Sheets API changed from V3 to V4
@@ -44,7 +44,7 @@ function loadJSON(callback) {
     // https://sheets.googleapis.com/v4/spreadsheets/SPREADSHEET_ID/values/RANGE?key=API_KEY
     // ^ note for RANGE you can use a sheet ID such as Sheet1 
     // Sheet ID for 2021 is this: 1J26Xaz21Kdo9mnlT2kbjcOf2Ce11kopnRUFZrWRRpAA
-    // API Key is: AIzaSyBESG10ps9gmorRl7ZAKWfYeM-3vRJL4lk
+    // API Key is: APIKEY 
     // so this works for returning JSON:
     // https://sheets.googleapis.com/v4/spreadsheets/1J26Xaz21Kdo9mnlT2kbjcOf2Ce11kopnRUFZrWRRpAA/values/Sheet1?key=AIzaSyBESG10ps9gmorRl7ZAKWfYeM-3vRJL4lk
     // however parsing needs to change 
