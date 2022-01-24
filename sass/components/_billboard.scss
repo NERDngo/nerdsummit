@@ -271,16 +271,18 @@
 		font-size: 18px;
 	}
 
-	a:not(.billboard__butto, .billboard__link--image) {
+	a:not(.billboard__button) {
 		font-size: 16px;
 		font-weight: 900;
 		color: $nerd-blue--dark;
 		text-transform: uppercase;
 		text-decoration: none;
-		transition: border-bottom 0.2s;
+		transition: border-bottom, margin-bottom 0.2s;
 
 		&:hover {
-			border-bottom: solid 3px $nerd-blue--dark;
+			text-decoration-color: $nerd-blue--dark;
+			text-decoration-line: underline;
+			text-decoration-thickness: 3px;
 			color: black;
 		}
 	}
