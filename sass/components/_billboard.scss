@@ -3,309 +3,307 @@
 // billboard-content-end (sessions)
 
 .billboard {
-  $_parent: &;
+	$_parent: &;
 
-  margin: auto;
-  padding: 90px 0;
+	margin: auto;
+	padding: 90px 0;
 
-  @media (min-width: $tablet) {
-    padding: 120px 0;
-  }
+	@media (min-width: $tablet) {
+		padding: 120px 0;
+	}
 
-  &--summit {
-    background: $dos-black;
-    padding-top: 165px;
-    padding-bottom: 150px;
-  }
+	&--summit {
+		background: $dos-black;
+		padding-top: 165px;
+		padding-bottom: 150px;
+	}
 
-  &--sessions {
-    background-color: $rover-light-gold;
+	&--sessions {
+		background-color: $rover-light-gold;
 
-    .billboard__button-container {
-      text-align: left;
-    }
-  }
+		.billboard__button-container {
+			text-align: left;
+		}
+	}
 
-  &--location {
-    background-color: $nerd-purple;
-  }
+	&--location {
+		background-color: $nerd-purple;
+	}
 
-  &--sponsors {
+	&--sponsors {
+		.sponsor {
+			width: 300px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
 
-    .sponsor {
-      width: 300px;
-      margin-left: 20px;
-      margin-right: 20px;
-      text-align: center;
-    }
+		.supporter {
+			width: 300px;
+			margin-left: 20px;
+			margin-right: 20px;
+			text-align: center;
+			min-height: 100px;
 
-    .supporter {
-      width: 300px;
-      margin-left: 20px;
-      margin-right: 20px;
-      text-align: center;
-      min-height: 100px;
+			p {
+				font-size: 16px;
+				font-weight: 900;
+				color: black;
+				text-transform: uppercase;
+				text-decoration: none;
+				transition: border-bottom 0.2s;
+				margin: 0 20px;
+			}
+		}
+	}
 
-      p {
-        font-size: 16px;
-        font-weight: 900;
-        color: black;
-        text-transform: uppercase;
-        text-decoration: none;
-        transition: border-bottom .2s;
-        margin: 0 20px;
-      }
-    }
-  }
+	&--about {
+		background-color: $jumpsuit-very-light-blue;
+	}
 
-  &--about {
-    background-color: $jumpsuit-very-light-blue;
-  }
+	&--contact {
+		background-color: $rover-light-gold;
+	}
 
-  &--contact {
-    background-color: $rover-light-gold;
-  }
+	&__callout {
+		font-size: 21px;
+		font-weight: 400;
+		margin-bottom: 25px;
+		color: white;
 
-  &__callout {
-    font-size: 21px;
-    font-weight: 400;
-    margin-bottom: 25px;
-    color: white;
+		@media (min-width: $tablet) {
+			font-size: 24px;
+			margin-bottom: 35px;
+		}
 
-    @media (min-width: $tablet) {
-      font-size: 24px;
-      margin-bottom: 35px;
-    }
+		.billboard--summit & {
+			color: $pacman-yellow;
+		}
+	}
 
-    .billboard--summit & {
-      color: $pacman-yellow;
-    }
-  }
+	&__header {
+		font-family: $header-font-family;
+		font-size: 48px;
+		font-weight: 400;
+		line-height: 1;
+		padding-bottom: 25px;
+		color: $cloud-blue;
 
-  &__header {
-    font-family: $header-font-family;
-    font-size: 48px;
-    font-weight: 400;
-    line-height: 1;
-    padding-bottom: 25px;
-    color: $cloud-blue;
+		@media (min-width: $tablet) {
+			font-size: 64px;
+			padding-bottom: 35px;
+		}
+	}
 
-    @media (min-width: $tablet) {
-      font-size: 64px;
-      padding-bottom: 35px;
-    }
-  }
+	&__subheader {
+		font-size: 24px;
+		font-weight: 600;
+		margin-bottom: 20px;
+		&--sponsor {
+			font-size: 24px;
+			font-weight: 600;
+			margin-bottom: 0px;
+			@media (min-width: $tablet) {
+				font-size: 30px;
+			}
+		}
 
-  &__subheader {
-    font-size: 24px;
-    font-weight: 600;
-    margin-bottom: 20px;
-    &--sponsor {
-       font-size: 24px;
-       font-weight: 600;
-       margin-bottom: 0px;
-       @media (min-width: $tablet) {
-      font-size: 30px;
-      }
-    }
+		@media (min-width: $tablet) {
+			font-size: 30px;
+			margin-bottom: 30px;
+		}
+	}
 
-    @media (min-width: $tablet) {
-      font-size: 30px;
-      margin-bottom: 30px;
-    }
-  }
+	h4 {
+		font-size: 18px;
+		font-weight: 600;
+		margin-bottom: 20px;
+		text-transform: uppercase;
+	}
 
-  h4 {
-    font-size: 18px;
-    font-weight: 600;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-  }
+	h5 {
+		margin: 15px 0;
+	}
 
-  h5 {
-    margin: 15px 0;
-  }
+	&__button-container {
+		width: 100%;
+		text-align: center;
+	}
 
-  &__button-container {
-    width: 100%;
-    text-align: center;
-  }
+	&__button-item {
+		text-align: center;
 
-  &__button-item {
-    text-align: center;
+		&:not(:last-child) {
+			margin-bottom: 20px;
+		}
 
-    &:not(:last-child) {
-      margin-bottom: 20px;
-    }
+		@media (min-width: $tablet) {
+			display: inline-block;
+			max-width: initial;
 
-    @media (min-width: $tablet) {
-      display: inline-block;
-      max-width: initial;
+			&:not(:last-child) {
+				margin-right: 40px;
+				margin-bottom: 0;
+			}
+		}
+	}
 
-      &:not(:last-child) {
-        margin-right: 40px;
-        margin-bottom: 0;
-      }
-    }
-  }
+	&__button {
+		font-size: 21px;
+		border: 0;
+		padding: 4px 16px;
+		display: inline-block;
+		text-decoration: none;
+		transition: all 0.3s;
+		background-color: $pacman-yellow;
+		font-family: $header-font-family;
+		color: $water-blue;
+		white-space: nowrap;
 
-  &__button {
-    font-size: 21px;
-    border: 0;
-    padding: 4px 16px;
-    display: inline-block;
-    text-decoration: none;
-    transition: all .3s;
-    background-color: $pacman-yellow;
-    font-family: $header-font-family;
-    color: $water-blue;
-    white-space: nowrap;
+		&--secondary {
+			background-color: transparent;
+			color: $nerd-blue--dark;
 
-    &--secondary {
-      background-color: transparent;
-      color: $nerd-blue--dark;
+			&:hover {
+				color: black;
+				border-color: black;
+			}
+		}
 
-      &:hover {
-        color: black;
-        border-color: black;
-      }
-    }
+		&--tertiary {
+			padding: 8px 16px;
+			background-color: $mars-red;
+			font-family: $base-font-family;
+			color: white;
+		}
+	}
 
-    &--tertiary {
-      padding: 8px 16px;
-      background-color: $mars-red;
-      font-family: $base-font-family;
-      color: white;
-    }
-  }
+	&__button-text {
+		background-color: $pacman-yellow;
+		margin-left: -25px;
+		margin-right: -25px;
+		padding-left: 25px;
+		padding-right: 25px;
+	}
 
-  &__button-text {
-    background-color: $pacman-yellow;
-    margin-left: -25px;
-    margin-right: -25px;
-    padding-left: 25px;
-    padding-right: 25px;
-  }
+	&__wrapper {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-wrap: wrap;
+		margin-top: 30px;
+		a {
+			margin: 0 20px;
+		}
+	}
 
-  &__wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-top: 30px;
-    a {
-      margin: 0 20px;
-    }
-  }
+	&__wrapper--sponsor {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-wrap: wrap;
+		margin-top: 0px;
+		margin-bottom: 50px;
+		a {
+			margin: 0 20px;
+		}
+	}
 
-  &__wrapper--sponsor {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-top: 0px;
-    margin-bottom: 50px;
-    a {
-      margin: 0 20px;
-    }
-  }
+	&__columns {
+		margin-top: 20px;
 
-  &__columns {
-    margin-top: 20px;
+		@media (min-width: $tablet) {
+			display: flex;
+			align-items: flex-start;
+			justify-content: center;
 
-    @media (min-width: $tablet) {
-      display: flex;
-      align-items: flex-start;
-      justify-content: center;
+			> div {
+				flex-basis: 50%;
+			}
+		}
 
-      > div {
-        flex-basis: 50%;
-      }
-    }
+		&--55-45 {
+			@media (min-width: $tablet) {
+				display: flex;
+				align-items: flex-start;
+				justify-content: center;
 
-    &--55-45 {
+				> div:first-child {
+					flex-basis: 55%;
+				}
 
-      @media (min-width: $tablet) {
-        display: flex;
-        align-items: flex-start;
-        justify-content: center;
+				> div:last-child {
+					flex-basis: 45%;
+				}
+			}
+		}
 
-        > div:first-child {
-          flex-basis: 55%;
-        }
+		&--45-55 {
+			@media (min-width: $tablet) {
+				display: flex;
+				align-items: flex-start;
+				justify-content: center;
 
-        > div:last-child {
-          flex-basis: 45%;
-        }
-      }
-    }
+				> div:first-child {
+					flex-basis: 45%;
+				}
 
-    &--45-55 {
-      @media (min-width: $tablet) {
-        display: flex;
-        align-items: flex-start;
-        justify-content: center;
+				> div:last-child {
+					flex-basis: 55%;
+				}
+			}
+		}
+	}
 
-        > div:first-child {
-          flex-basis: 45%;
-        }
+	&__list {
+		margin: 0;
+		padding: 0;
+		list-style: none;
 
-        > div:last-child {
-          flex-basis: 55%;
-        }
-      }
-    }
-  }
+		li:not(:last-child) {
+			margin-bottom: 10px;
+		}
+	}
 
-  &__list {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+	p {
+		font-weight: 400;
+		margin-bottom: 30px;
+		font-size: 18px;
+	}
 
-    li:not(:last-child) {
-      margin-bottom: 10px;
-    }
-  }
+	a:not(.billboard__butto, .billboard__link--image) {
+		font-size: 16px;
+		font-weight: 900;
+		color: $nerd-blue--dark;
+		text-transform: uppercase;
+		text-decoration: none;
+		transition: border-bottom 0.2s;
 
-  p {
-    font-weight: 400;
-    margin-bottom: 30px;
-    font-size: 18px;
-  }
-
-  a:not(.billboard__button) {
-    font-size: 16px;
-    font-weight: 900;
-    color: $nerd-blue--dark;
-    text-transform: uppercase;
-    text-decoration: none;
-    transition: border-bottom .2s;
-
-    &:hover {
-      border-bottom: solid 3px $nerd-blue--dark;
-      color: black;
-    }
-  }
+		&:hover {
+			border-bottom: solid 3px $nerd-blue--dark;
+			color: black;
+		}
+	}
 }
 
 .billboard__inner {
-    margin: auto;
-    max-width: 768px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    text-align: center;
-    padding: 0 20px;
-    position: relative;
+	margin: auto;
+	max-width: 768px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	text-align: center;
+	padding: 0 20px;
+	position: relative;
 
-    @media (min-width: $tablet) {
-      padding: 0;
-    }
+	@media (min-width: $tablet) {
+		padding: 0;
+	}
 
-    // Sessions billboard is not centered
-    .billboard--sessions & {
-      text-align: left;
-    }
-  }
+	// Sessions billboard is not centered
+	.billboard--sessions & {
+		text-align: left;
+	}
+}
