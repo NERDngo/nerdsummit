@@ -33,7 +33,8 @@ function loadJSON(callback) {
 	xobj.overrideMimeType("application/json");
 	// 2022 - using 2021 sheet for testing, will create 2022 sheet later
 	// this seems to work but is in a different format so parsing needs to change
-	xobj.open("GET", "/data/sessions2022-test.json", true);
+	// xobj.open("GET", "/data/sessions2022-test.json", true);
+	xobj.open("GET", "/data/CURRENT!A1_P1022.json", true);
 
 	// 2022 NOTES
 	// shifting to locally saved file.j
