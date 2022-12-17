@@ -32,9 +32,9 @@ function loadJSON(callback) {
 	var xobj = new XMLHttpRequest();
 	xobj.overrideMimeType("application/json");
 	// this seems to work but is in a different format so parsing needs to change
-	// xobj.open("GET", "/data/sessions2022-test.json", true);
-	// xobj.open("GET", "/data/CURRENT!A1_P1022.json", true);
-	xobj.open("GET", "/data/CURRENT!A1_P1022_2023_test.json", true);
+	// xobj.open("GET", "/data/sessions.json", true);
+	// TESTING BELOW 
+	xobj.open("GET", "/data/CURRENT!A1_P1022_2022-12-17.json", true);
 	// 2022 NOTES
 	// shifting to locally saved file ( that json file above is save locally in the data folder )
 	// see notes from Rick on how to do this 
