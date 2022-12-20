@@ -138,6 +138,7 @@
 
 	&__button-item {
 		text-align: center;
+		list-style: none;
 
 		&:not(:last-child) {
 			margin-bottom: 20px;
@@ -317,7 +318,7 @@
 }
 
 .keynotes-container {
-	margin-top: 30px;
+	margin-bottom: 50px;
 	padding-top: 30px;
 	width: 100%;
 	background-color: #fff;
@@ -337,8 +338,8 @@
 .keynote {
 	width: 100%;
 	@media (min-width: $tablet) {
-		width: 45%;
+		width: 50%;
 	}
 	text-align: center;
-	padding: 0 10px;
+	padding: 0 20px;
 }
