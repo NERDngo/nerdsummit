@@ -317,7 +317,10 @@
 }
 
 .keynotes-container {
+	margin-top: 30px;
+	padding-top: 30px;
 	width: 100%;
+	background-color: #fff;
 	.center {
 		text-align: center;
 	}
@@ -329,4 +332,8 @@
     flex-direction: row;
     justify-content: space-between;
     align-content: space-around;
+}
+.keynote {
+	width: 45%;
+	text-align: center;
 }
