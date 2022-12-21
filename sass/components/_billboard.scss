@@ -322,6 +322,7 @@
 	padding-top: 30px;
 	width: 100%;
 	background-color: #fff;
+	border: 2px solid #ccc;
 	.center {
 		text-align: center;
 	}
@@ -342,4 +343,8 @@
 	}
 	text-align: center;
 	padding: 0 20px;
+}
+
+.align-center {
+	text-align: center;
 }
