@@ -34,7 +34,7 @@ function loadJSON(callback) {
 	// this seems to work but is in a different format so parsing needs to change
 	// xobj.open("GET", "/data/sessions.json", true);
 	// TESTING BELOW 
-	xobj.open("GET", "/data/CURRENT!A1_P1022_2023-01-12.json", true);
+	xobj.open("GET", "/data/CURRENT!A1_P1022_2023-01-19.json", true);
 	// this does not work, look into it:
 	// xobj.open("GET", "https://sheets.googleapis.com/v4/spreadsheets/1gZp8P33sPg8h6iOczKEa4HrFENHkeDFZUmZRNo1qt-k/values/CURRENT!A1:P1022?key=${{ secrets.GOOGLE_SHEETS_API_KEY }", true);
 	// 2022 NOTES
