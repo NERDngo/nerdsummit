@@ -1,75 +1,125 @@
-[
-  {
-    "level": "Platinum",
-    "sponsors": [
-      {
-        "sponsor": "UMass College of Natural Science",
-        "logo": "CNS-wordmark.jpg"
-      },
-      {
-        "sponsor": "Last Call Media",
-        "logo": "lcm-platinum.png"
-      }
+{
+  "range": "SPONSORS!A1:E17",
+  "majorDimension": "ROWS",
+  "values": [
+    [
+      "id",
+      "type",
+      "website",
+      "logo",
+      "name"
+    ],
+    [
+      "1",
+      "Platinum",
+      "https://lastcallmedia.com/",
+      "https://nerdsummit.org/images/lcm-platinum.png",
+      "Last Call Media"
+    ],
+    [
+      "2",
+      "Platinum",
+      "https://www.cns.umass.edu/",
+      "https://nerdsummit.org/images/CNS-wordmark.jpg",
+      "UMass CNS"
+    ],
+    [
+      "3",
+      "Gold",
+      "https://www.commonmedia.com/",
+      "https://nerdsummit.org/images/common_media_23.png",
+      "Common Media"
+    ],
+    [
+      "4",
+      "Silver",
+      "https://factastudio.com/",
+      "https://nerdsummit.org/images/facta.png",
+      "FACTA"
+    ],
+    [
+      "5",
+      "Keynote",
+      "https://www.knectar.com/",
+      "https://nerdsummit.org/images/knectar-hor.png",
+      "Knectar"
+    ],
+    [
+      "6",
+      "Keynote",
+      "https://www.tag1consulting.com/",
+      "https://nerdsummit.org/images/tag1.png",
+      "Tag1"
+    ],
+    [
+      "7",
+      "Community",
+      "https://tinypilotkvm.com/",
+      "https://nerdsummit.org/images/tiny_pilot.png",
+      "Tiny Pilot"
+    ],
+    [
+      "8",
+      "Community",
+      "https://www.fitstaffingsolutions.com/",
+      "https://nerdsummit.org/images/fit-logo-2019.jpg",
+      "FIT Staffing"
+    ],
+    [
+      "9",
+      "Community",
+      "https://hilltownfamilies.org/",
+      "https://nerdsummit.org/images/HTF_square_logo.jpg",
+      "Hilltown Families"
+    ],
+    [
+      "10",
+      "Community",
+      "https://talkingdrupal.com/",
+      "https://nerdsummit.org/images/talking_drupal_logo.png",
+      "Talking Drupal"
+    ],
+    [
+      "11",
+      "Community",
+      "https://montaguewebworks.com/",
+      "https://nerdsummit.org/images/MWW-RocketFusion.jpg",
+      "Montague WebWorks"
+    ],
+    [
+      "12",
+      "Community",
+      "https://www.messageagency.com/",
+      "https://nerdsummit.org/images/message-agency-2020.jpg",
+      "Message Agency"
+    ],
+    [
+      "13",
+      "Community",
+      "https://plenti.co/",
+      "https://nerdsummit.org/images/plentico.png",
+      "Plentico"
+    ],
+    [
+      "14",
+      "Partner",
+      "https://www.hackdiversity.com/",
+      "https://nerdsummit.org/images/hack_diversity.png",
+      "Hack Diversity"
+    ],
+    [
+      "15",
+      "Partner",
+      "https://thetechfoundry.org/",
+      "https://nerdsummit.org/images/tech-foundry.png",
+      "The Tech Foundry"
+    ],
+    [
+      "16",
+      "Partner",
+      "https://www.thedroptimes.com/",
+      "https://nerdsummit.org/images/the_drop_times.png",
+      "The Drop Times"
     ]
-  },
-  {
-    "level": "Gold",
-    "sponsors": [
-      {
-        "sponsor": "Common Media",
-        "logo": "cmi.jpg"
-      }
-    ]
-  },
-  {
-    "level": "Silver",
-    "sponsors": [
-      {
-        "sponsor": "Baypath University",
-        "logo": "baypath-sponsor.jpg"
-      },
-      {
-        "sponsor": "Big Vodoo",
-        "logo": "bigvoodoologo.jpg"
-      },
-      {
-        "sponsor": "Paragon Digital",
-        "logo": "ParagonDigital.jpg"
-      }
-    ]
-  },
-  {
-    "level": "Bronze",
-    "sponsors": [
-      {
-        "sponsor": "Carv.io",
-        "logo": "carv-logo-beta.jpg"
-      }
-    ]
-  },
-  {
-    "level": "Community",
-    "sponsors": [
-      {
-        "sponsor": "Softescu",
-        "logo": "softescu.png"
-      },
-      {
-        "sponsor": "FIT Solutions",
-        "logo": "fit-logo-2019.jpg"
-      },
-      {
-        "sponsor": "Just Peachy",
-        "logo": "just-peachy.jpg"
-      },
-      {
-        "sponsor": "Aquia",
-        "logo": "acquia-logo.png"
-      },
-      {
-        "sponsor": "UMass College of Information and Computer Sciences",
-        "logo": "UMass_CICS.jpg"
-      }
-    ]
-  }
-]
+  ]
+}
