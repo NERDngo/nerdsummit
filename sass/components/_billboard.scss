@@ -13,7 +13,7 @@
 	}
 
 	&--summit {
-		background: $dos-black;
+		background: $nerd-logo-blue;
 		padding-top: 165px;
 		padding-bottom: 150px;
 	}
@@ -83,17 +83,17 @@
 		}
 
 		.billboard--summit & {
-			color: $pacman-yellow;
+			color: white;
 		}
 	}
 
 	&__header {
 		font-family: $header-font-family;
 		font-size: 48px;
-		font-weight: 400;
+		font-weight: 900;
 		line-height: 1;
 		padding-bottom: 25px;
-		color: $cloud-blue;
+		color: #fff;
 
 		@media (min-width: $tablet) {
 			font-size: 64px;
@@ -166,6 +166,10 @@
 		font-family: $header-font-family;
 		color: $water-blue;
 		white-space: nowrap;
+		border-radius: 7px;
+		&:hover {
+				background-color: $nerd-logo-pink;
+		}
 
 		&--secondary {
 			background-color: transparent;
@@ -179,18 +183,21 @@
 
 		&--tertiary {
 			padding: 8px 16px;
-			background-color: $mars-red;
+			background-color: $nerd-logo-pink;
 			font-family: $base-font-family;
 			color: white;
 		}
 	}
 
 	&__button-text {
-		background-color: $pacman-yellow;
-		margin-left: -25px;
-		margin-right: -25px;
-		padding-left: 25px;
-		padding-right: 25px;
+		// background-color: $pacman-yellow;
+		// margin-left: -25px;
+		// margin-right: -25px;
+		// padding-left: 25px;
+		// padding-right: 25px;
+		&:hover {
+				background-color: $nerd-logo-pink;
+		}
 	}
 
 	&__wrapper {
@@ -257,6 +264,22 @@
 
 				> div:last-child {
 					flex-basis: 55%;
+				}
+			}
+		}
+		
+		&--35-65 {
+			@media (min-width: $tablet) {
+				display: flex;
+				align-items: flex-start;
+				justify-content: center;
+
+				> div:first-child {
+					flex-basis: 35%;
+				}
+
+				> div:last-child {
+					flex-basis: 65%;
 				}
 			}
 		}

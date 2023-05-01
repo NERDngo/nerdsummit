@@ -4,6 +4,15 @@ $nerd-yellow: #F9F7F0;
 $nerd-purple: #ECF1FD;
 $nerd-blue--dark: #2027bd;
 
+// NERD logo colors 
+$nerd-logo-blue: #4a54a4;
+$nerd-logo-blue-dark: #2a2c68;
+$nerd-logo-green: #5ab147;
+$nerd-logo-pink: #e0699a;
+$nerd-logo-orange: #f29033;
+$nerd-logo-orange-dark: #ea662a;
+
+
 // 2022 colors:
 $dos-black: #212121;
 $cloud-blue: #00ffff;
@@ -32,4 +41,5 @@ $full-header-width: 100%;
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 $base-font-family: 'Montserrat', sans-serif;
-$header-font-family: 'VT323', monospace;
+// $header-font-family: 'VT323', monospace; // 2023
+$header-font-family: 'Montserrat', sans-serif;

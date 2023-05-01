@@ -13,7 +13,8 @@
     text-transform: uppercase;
 
     a {
-      color: rgb(255, 229, 227);
+      //color: rgb(255, 229, 227);
+      color: white;
       font-size: 16px;
       font-weight: bold;
       padding:4px 16px;;
@@ -39,7 +40,7 @@
       font-weight: lighter;
       transition: border-bottom .2s;
       &:hover {
-      border-bottom: solid 3px $mars-red;
+      border-bottom: solid 3px $nerd-logo-pink;
       }
     }
   }

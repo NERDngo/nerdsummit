@@ -35,7 +35,7 @@ html {
 
 #notice {
   height: 30px;
-  background: #000;
+  background: $nerd-logo-green;
   color: #FFF;
   font-size: 14px;
   padding-top: 5px;
@@ -47,7 +47,7 @@ html {
   height: 50px;
   }
   &.dev {
-    background-color: $mars-red;
+    background-color: $nerd-logo-green;
   }
 }   
 
