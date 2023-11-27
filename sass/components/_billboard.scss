@@ -187,6 +187,14 @@
 			font-family: $base-font-family;
 			color: white;
 		}
+
+		&.blue {
+			background-color: $nerd-logo-blue;
+			color: #FFF;
+			&:hover {
+				background-color: $nerd-logo-pink;
+			}
+		}
 	}
 
 	&__button-text {
