@@ -115,3 +115,65 @@ function createSessionList(dayId, sessions) {
 		return dirty;
 	}
 }
+
+// Find the meta tag with the name attribute "description"
+var metaTag = document.querySelector('meta[property="og:image"]');
+
+// Check if the meta tag exists
+if (metaTag) {
+  // Change the content attribute of the meta tag
+  metaTag.setAttribute('content', 'https://nerdsummit.org/images/new_image.png');
+}
+
+// Get the hash tag from the current URL
+var hashTag = window.location.hash; // #16
+
+// Display the hash tag in the console
+console.log("Hash tag from the URL: " + hashTag); 
+
+let cleanedHashtag = hashTag.replace('#', '');
+console.log(cleanedHashtag); // This will output 'hashtag'  16 
+
+
+//fetch('/data/data.json')
+fetch('/data/sessions.json')
+  .then(response => {
+    if (!response.ok) {
+      throw new Error('Network response was not ok');
+    }
+    return response.json();
+  })
+  .then(data => {
+    const findNameById = (idToFind, data) => {
+      const result = data.find(item => item.id === idToFind);
+      return result ? result.name : null;
+    };
+
+    const idToSearch = 16; // Replace this with the ID you want to find
+    const name = findNameById(idToSearch, data);
+
+    if (name) {
+      console.log(`Name associated with ID ${idToSearch} is ${name}`);
+    } else {
+      console.log(`No name found for ID ${idToSearch}`);
+    }
+  })
+  .catch(error => {
+    console.error('There was a problem fetching the data:', error);
+  });
+
+
+  fetch('/data/sessions.json')
+  .then(response => {
+    if (!response.ok) {
+      throw new Error('Network response was not ok');
+    }
+    return response.json();
+  })
+  .then(data => {
+    const valuesArray = data.values.map(item => item.values);
+    console.log(valuesArray); // This will output an array of "values" arrays
+  })
+  .catch(error => {
+    console.error('There was a problem fetching the data:', error);
+  });
