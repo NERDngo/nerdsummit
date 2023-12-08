@@ -1,17 +1,44 @@
 // Call to function with anonymous callback
 loadJSON(function (response) {
-	//  COMMENT THIS OUT TO GO LIVE WITH SESSIONS
-	// if (!window.location.href.includes("dev.html")) {
-	//     $(".timeslots").remove();
-	//     return null;
-	// }
 	const rows = massageData(JSON.parse(response).values);
+	//console.log(rows); // this is an array of all the sessions 
 	const day1 = rows.filter((row) => row.day === "1");
 	const day2 = rows.filter((row) => row.day === "2");
 	createSessionList("Day-1", day1);
 	createSessionList("Day-2", day2);
 
-	var hash = window.location.hash;
+	var hash = window.location.hash;  // has = #schedule for example for nerdsummit.org/#schedule 
+	
+	// START added 2023-12
+	//console.log(hash); // This will output '#schedule'
+	var cleanedHashtag = hash.replace('#', '');
+	// console.log(cleanedHashtag); // This will output 'schedule' 
+
+	// need to find the ogimage value from rows where id = cleanedHashtag
+	let ogimageUrl = 'https://nerdsummit.org/images_sesssions/default.png'
+	let result = rows.find(item => item.id === cleanedHashtag);
+	if (result) {
+		//console.log("Value of ogimage = ", result.ogimage);
+		ogimageUrl = 'https://nerdsummit.org/images_sesssions/' + result.ogimage ;
+	} else {
+		//console.log("No object found with id = ", cleanedHashtag);
+	}
+	// OK now use result.ogimage to change the meta tag
+	if (result) {
+		var metaTagOG = document.querySelector('meta[property="og:image"]');
+		var metaTagTwitter = document.querySelector('meta[name="twitter:image"]');
+		// Check if the meta tag exists
+		if (metaTagOG) {
+			// Change the content attribute of the meta tag
+			metaTagOG.setAttribute('content', ogimageUrl);
+		}
+		if (metaTagTwitter) {
+			// Change the content attribute of the meta tag
+			metaTagTwitter.setAttribute('content', ogimageUrl);
+		}
+	}
+	// END added 2023-12
+	
 	if (hash) {
 		var $session = $(hash);
 		if (!$session.length) {
@@ -25,6 +52,7 @@ loadJSON(function (response) {
 			300
 		);
 	}
+
 });
 
 // see https://stackoverflow.com/a/34908037/5855010  (original link for how to do this)
@@ -115,65 +143,3 @@ function createSessionList(dayId, sessions) {
 		return dirty;
 	}
 }
-
-// Find the meta tag with the name attribute "description"
-var metaTag = document.querySelector('meta[property="og:image"]');
-
-// Check if the meta tag exists
-if (metaTag) {
-  // Change the content attribute of the meta tag
-  metaTag.setAttribute('content', 'https://nerdsummit.org/images/new_image.png');
-}
-
-// Get the hash tag from the current URL
-var hashTag = window.location.hash; // #16
-
-// Display the hash tag in the console
-console.log("Hash tag from the URL: " + hashTag); 
-
-let cleanedHashtag = hashTag.replace('#', '');
-console.log(cleanedHashtag); // This will output 'hashtag'  16 
-
-
-//fetch('/data/data.json')
-fetch('/data/sessions.json')
-  .then(response => {
-    if (!response.ok) {
-      throw new Error('Network response was not ok');
-    }
-    return response.json();
-  })
-  .then(data => {
-    const findNameById = (idToFind, data) => {
-      const result = data.find(item => item.id === idToFind);
-      return result ? result.name : null;
-    };
-
-    const idToSearch = 16; // Replace this with the ID you want to find
-    const name = findNameById(idToSearch, data);
-
-    if (name) {
-      console.log(`Name associated with ID ${idToSearch} is ${name}`);
-    } else {
-      console.log(`No name found for ID ${idToSearch}`);
-    }
-  })
-  .catch(error => {
-    console.error('There was a problem fetching the data:', error);
-  });
-
-
-  fetch('/data/sessions.json')
-  .then(response => {
-    if (!response.ok) {
-      throw new Error('Network response was not ok');
-    }
-    return response.json();
-  })
-  .then(data => {
-    const valuesArray = data.values.map(item => item.values);
-    console.log(valuesArray); // This will output an array of "values" arrays
-  })
-  .catch(error => {
-    console.error('There was a problem fetching the data:', error);
-  });
