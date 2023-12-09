@@ -74,3 +74,16 @@ img.nerdy__sessions {
   aspect-ratio: 16 / 9;
   width: 100%;
 }
+
+.billboard {
+  .white-box {
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #FFF;
+    p {
+      margin: 0;
+      margin-bottom: 0;
+    }
+  }
+}
