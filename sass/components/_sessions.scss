@@ -99,18 +99,24 @@
   }
   .\#11\:00,
   .\#2\:15,
-  .\#4\:15 {
+  .\#4\:15,
+  .grey {
     background-color: #EEEEEE;
+    color: #000;
   }
   .\#12\:00,
   .\#5\:15,
   .\#5\:00,
   .\#8\:30,
-  .\#9\:15 {
+  .\#9\:15,
+  .blue {
     background-color: #d4ecf9; 
+    color:#000;
   }
-   .\#1\:00 {
+  .\#1\:00,
+  .green {
     background-color: #BBF6D0;
+    color:#000;
   }
 
   #hackathon {

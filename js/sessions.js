@@ -99,7 +99,7 @@ function createSessionList(dayId, sessions) {
 	}
 	sessions.forEach((session) => {
 		let sessionElement = document.createElement("div");
-		sessionElement.className = `session #${session.start}`;
+		sessionElement.className = `session ${session.start} ${session.bkgrnd}`;
 		sessionElement.innerHTML = sessionTemplate(session);
 
 		dayElement.appendChild(sessionElement);
