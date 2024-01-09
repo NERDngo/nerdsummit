@@ -112,6 +112,9 @@ function createSessionList(dayId, sessions) {
 		const slideLink = session.slideLink
 			? `<a href="${session.slideLink}" class="slides-link">Link to slides</a>`
 			: null;
+		const sessionImage = session.sessionImage
+			? `<img src="/images_sessions/${session.sessionImage}"> `
+			: null;
 		const seperator =
 			session.slideLink && session.speakerLink ? `<span> | </span>` : null;
 		return sanitize`
@@ -132,6 +135,7 @@ function createSessionList(dayId, sessions) {
             ${seperator}
             ${slideLink}
             <p>${session.description}</p>
+						 ${sessionImage}	
         </div>
         `;
 	}
