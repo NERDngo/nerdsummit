@@ -18,7 +18,7 @@
       "slideLink",
       "",
       "color",
-      "ogimage"
+      "sessionImage"
     ],
     [
       "1",
@@ -63,12 +63,7 @@
       "Session",
       "Session name TDB",
       "Speaker name TBD",
-      "\u003cp\u003eDescription TBD\u003c/p\u003e",
-      "",
-      "",
-      "",
-      "",
-      "placeholder.jpg"
+      "\u003cp\u003eDescription TBD\u003c/p\u003e"
     ],
     [
       "4",
@@ -81,12 +76,7 @@
       "Workshop",
       "Session name TDB",
       "Speaker name TBD",
-      "\u003cp\u003eDescription TBD\u003c/p\u003e",
-      "",
-      "",
-      "",
-      "",
-      "placeholder.jpg"
+      "\u003cp\u003eDescription TBD\u003c/p\u003e"
     ],
     [
       "5",
@@ -99,12 +89,7 @@
       "Session",
       "Session name TDB",
       "Speaker name TBD",
-      "\u003cp\u003eDescription TBD\u003c/p\u003e",
-      "",
-      "",
-      "",
-      "",
-      "placeholder.jpg"
+      "\u003cp\u003eDescription TBD\u003c/p\u003e"
     ],
     [
       "6",
@@ -117,15 +102,10 @@
       "Session",
       "Session name TDB",
       "Speaker name TBD",
-      "\u003cp\u003eDescription TBD\u003c/p\u003e",
-      "",
-      "",
-      "",
-      "",
-      "placeholder.jpg"
+      "\u003cp\u003eDescription TBD\u003c/p\u003e"
     ],
     [
-      "7",
+      "ai-coding",
       "7",
       "1",
       "white",
@@ -133,14 +113,9 @@
       "10:15 AM",
       "904",
       "Workshop",
-      "Session name TDB",
-      "Speaker name TBD",
-      "\u003cp\u003eDescription TBD\u003c/p\u003e",
-      "",
-      "",
-      "",
-      "",
-      "placeholder.jpg"
+      "WORKSHOP: AI-Enhanced Coding: A Practical Workshop for All Levels  ALL DAY",
+      "Michael Miles",
+      "\u003cp\u003eTicket required see:  \u003ca href=\"https://ti.to/nerd/nerd-summit-2024-tickets\"\u003e TICKETS\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eThis training is designed for those new to using AI in programming. It offers a comprehensive introduction to using AI as a coding assistant, covering everything from setting up AI tools to effectively utilizing them for coding tasks. With a focus on practical, hands-on learning, this guide is perfect for programmers of any level who are eager to explore the benefits of AI in their coding endeavors and enhance their programming skills.\u003c/p\u003e"
     ],
     [
       "8",
@@ -153,12 +128,7 @@
       "Session",
       "Session name TDB",
       "Speaker name TBD",
-      "\u003cp\u003eDescription TBD\u003c/p\u003e",
-      "",
-      "",
-      "",
-      "",
-      "placeholder.jpg"
+      "\u003cp\u003eDescription TBD\u003c/p\u003e"
     ],
     [
       "9",
@@ -171,12 +141,7 @@
       "Session",
       "Session name TDB",
       "Speaker name TBD",
-      "\u003cp\u003eDescription TBD\u003c/p\u003e",
-      "",
-      "",
-      "",
-      "",
-      "placeholder.jpg"
+      "\u003cp\u003eDescription TBD\u003c/p\u003e"
     ],
     [
       "10",
@@ -189,12 +154,7 @@
       "Workshop",
       "Session name TDB",
       "Speaker name TBD",
-      "\u003cp\u003eDescription TBD\u003c/p\u003e",
-      "",
-      "",
-      "",
-      "",
-      "placeholder.jpg"
+      "\u003cp\u003eDescription TBD\u003c/p\u003e"
     ],
     [
       "11",
@@ -207,12 +167,7 @@
       "Session",
       "Session name TDB",
       "Speaker name TBD",
-      "\u003cp\u003eDescription TBD\u003c/p\u003e",
-      "",
-      "",
-      "",
-      "",
-      "placeholder.jpg"
+      "\u003cp\u003eDescription TBD\u003c/p\u003e"
     ],
     [
       "12",
@@ -225,12 +180,7 @@
       "Session",
       "Session name TDB",
       "Speaker name TBD",
-      "\u003cp\u003eDescription TBD\u003c/p\u003e",
-      "",
-      "",
-      "",
-      "",
-      "placeholder.jpg"
+      "\u003cp\u003eDescription TBD\u003c/p\u003e"
     ],
     [
       "13",
@@ -241,14 +191,9 @@
       "11:15 AM",
       "904",
       "Workshop",
-      "Session name TDB",
-      "Speaker name TBD",
-      "\u003cp\u003eDescription TBD\u003c/p\u003e",
-      "",
-      "",
-      "",
-      "",
-      "placeholder.jpg"
+      "WORKSHOP: AI-Enhanced Coding: A Practical Workshop for All Levels  ALL DAY",
+      "Michael Miles",
+      "\u003cp\u003eSee descitpion in 10:15AM slot\u003c/p\u003e"
     ],
     [
       "14",
@@ -264,9 +209,7 @@
       "\u003cp\u003eDescription TBD\u003c/p\u003e",
       "",
       "",
-      "-",
-      "",
-      "placeholder.jpg"
+      "-"
     ],
     [
       "15",
@@ -285,7 +228,7 @@
       "-"
     ],
     [
-      "Weinberger",
+      "David-Weinberger",
       "16",
       "1",
       "green",
@@ -300,7 +243,7 @@
       "",
       "-",
       "",
-      "weinberger.png"
+      "keynote_2024_weinberger.png"
     ],
     [
       "17",
@@ -313,12 +256,7 @@
       "Session",
       "Session name TDB",
       "Speaker name TBD",
-      "\u003cp\u003eDescription TBD\u003c/p\u003e",
-      "",
-      "",
-      "",
-      "",
-      "placeholder.jpg"
+      "\u003cp\u003eDescription TBD\u003c/p\u003e"
     ],
     [
       "raspberry-pi",
@@ -331,12 +269,7 @@
       "Workshop",
       "WORKSHOP: MICROCONTROLLER INTRODUCTION WITH RASPBERRY PI PICO",
       "Stephen Cross",
-      "\u003cp\u003eTicket required see:  \u003ca href=\"https://ti.to/nerd/nerd-summit-2024-tickets\"\u003e TICKETS\u003c/a\u003e\n\u003cp\u003eA hands-on training with a Raspberry Pi microcontroller. Materials will be provided. A computer is required, so please bring your laptop.\u003c/p\u003e",
-      "",
-      "",
-      "",
-      "",
-      "placeholder.jpg"
+      "\u003cp\u003eTicket required see:  \u003ca href=\"https://ti.to/nerd/nerd-summit-2024-tickets\"\u003e TICKETS\u003c/a\u003e\n\u003cp\u003eA hands-on training with a Raspberry Pi microcontroller. Materials will be provided. A computer is required, so please bring your laptop.\u003c/p\u003e"
     ],
     [
       "19",
@@ -349,12 +282,7 @@
       "Session",
       "Session name TDB",
       "Speaker name TBD",
-      "\u003cp\u003eDescription TBD\u003c/p\u003e",
-      "",
-      "",
-      "",
-      "",
-      "placeholder.jpg"
+      "\u003cp\u003eDescription TBD\u003c/p\u003e"
     ],
     [
       "20",
@@ -367,12 +295,7 @@
       "Session",
       "Session name TDB",
       "Speaker name TBD",
-      "\u003cp\u003eDescription TBD\u003c/p\u003e",
-      "",
-      "",
-      "",
-      "",
-      "placeholder.jpg"
+      "\u003cp\u003eDescription TBD\u003c/p\u003e"
     ],
     [
       "21",
@@ -383,14 +306,9 @@
       "3:00 PM",
       "904",
       "Workshop",
-      "Session name TDB",
-      "Speaker name TBD",
-      "\u003cp\u003eDescription TBD\u003c/p\u003e",
-      "",
-      "",
-      "",
-      "",
-      "placeholder.jpg"
+      "WORKSHOP: AI-Enhanced Coding: A Practical Workshop for All Levels ALL DAY",
+      "Michael Miles",
+      "\u003cp\u003eSee descitpion in 10:15AM slot\u003c/p\u003e"
     ],
     [
       "22",
@@ -403,12 +321,7 @@
       "Session",
       "Session name TDB",
       "Speaker name TBD",
-      "\u003cp\u003eDescription TBD\u003c/p\u003e",
-      "",
-      "",
-      "",
-      "",
-      "placeholder.jpg"
+      "\u003cp\u003eDescription TBD\u003c/p\u003e"
     ],
     [
       "23",
@@ -421,12 +334,7 @@
       "Session",
       "Session name TDB",
       "Speaker name TBD",
-      "\u003cp\u003eDescription TBD\u003c/p\u003e",
-      "",
-      "",
-      "",
-      "",
-      "placeholder.jpg"
+      "\u003cp\u003eDescription TBD\u003c/p\u003e"
     ],
     [
       "24",
@@ -439,12 +347,7 @@
       "Workshop",
       "WORKSHOP: MICROCONTROLLER INTRODUCTION WITH RASPBERRY PI PICO",
       "Stephen Cross",
-      "\u003cp\u003eSee descitpion in 2:15PM slot\u003c/p\u003e",
-      "",
-      "",
-      "",
-      "",
-      "placeholder.jpg"
+      "\u003cp\u003eSee descitpion in 2:15PM slot\u003c/p\u003e"
     ],
     [
       "25",
@@ -457,12 +360,7 @@
       "Session",
       "Session name TDB",
       "Speaker name TBD",
-      "\u003cp\u003eDescription TBD\u003c/p\u003e",
-      "",
-      "",
-      "",
-      "",
-      "placeholder.jpg"
+      "\u003cp\u003eDescription TBD\u003c/p\u003e"
     ],
     [
       "26",
@@ -475,12 +373,7 @@
       "Session",
       "Session name TDB",
       "Speaker name TBD",
-      "\u003cp\u003eDescription TBD\u003c/p\u003e",
-      "",
-      "",
-      "",
-      "",
-      "placeholder.jpg"
+      "\u003cp\u003eDescription TBD\u003c/p\u003e"
     ],
     [
       "27",
@@ -491,14 +384,9 @@
       "4:00 PM",
       "904",
       "Workshop",
-      "Session name TDB",
-      "Speaker name TBD",
-      "\u003cp\u003eDescription TBD\u003c/p\u003e",
-      "",
-      "",
-      "",
-      "",
-      "placeholder.jpg"
+      "WORKSHOP:  AI-Enhanced Coding: A Practical Workshop for All Levels ALL DAY",
+      "Michael Miles",
+      "\u003cp\u003eSee descitpion in 10:15AM slot\u003c/p\u003e"
     ],
     [
       "28",
@@ -511,12 +399,7 @@
       "Session",
       "Session name TDB",
       "Speaker name TBD",
-      "\u003cp\u003eDescription TBD\u003c/p\u003e",
-      "",
-      "",
-      "",
-      "",
-      "placeholder.jpg"
+      "\u003cp\u003eDescription TBD\u003c/p\u003e"
     ],
     [
       "29",
@@ -529,12 +412,7 @@
       "Session",
       "Session name TDB",
       "Speaker name TBD",
-      "\u003cp\u003eDescription TBD\u003c/p\u003e",
-      "",
-      "",
-      "",
-      "",
-      "placeholder.jpg"
+      "\u003cp\u003eDescription TBD\u003c/p\u003e"
     ],
     [
       "30",
@@ -547,12 +425,7 @@
       "Workshop",
       "WORKSHOP: MICROCONTROLLER INTRODUCTION WITH RASPBERRY PI PICO",
       "Stephen Cross",
-      "\u003cp\u003eSee descitpion in 2:15PM slot\u003c/p\u003e",
-      "",
-      "",
-      "",
-      "",
-      "placeholder.jpg"
+      "\u003cp\u003eSee descitpion in 2:15PM slot\u003c/p\u003e"
     ],
     [
       "31",
@@ -565,12 +438,7 @@
       "Session",
       "Session name TDB",
       "Speaker name TBD",
-      "\u003cp\u003eDescription TBD\u003c/p\u003e",
-      "",
-      "",
-      "",
-      "",
-      "placeholder.jpg"
+      "\u003cp\u003eDescription TBD\u003c/p\u003e"
     ],
     [
       "32",
@@ -583,12 +451,7 @@
       "Session",
       "Session name TDB",
       "Speaker name TBD",
-      "\u003cp\u003eDescription TBD\u003c/p\u003e",
-      "",
-      "",
-      "",
-      "",
-      "placeholder.jpg"
+      "\u003cp\u003eDescription TBD\u003c/p\u003e"
     ],
     [
       "33",
@@ -599,14 +462,9 @@
       "5:00 PM",
       "904",
       "Workshop",
-      "Session name TDB",
-      "Speaker name TBD",
-      "\u003cp\u003eDescription TBD\u003c/p\u003e",
-      "",
-      "",
-      "",
-      "",
-      "placeholder.jpg"
+      "AI-Enhanced Coding: A Practical Workshop for All Levels",
+      "Michael Miles",
+      "\u003cp\u003eSee descitpion in 10:15AM slot\u003c/p\u003e"
     ],
     [
       "34",
@@ -619,12 +477,7 @@
       "Session",
       "Session name TDB",
       "Speaker name TBD",
-      "\u003cp\u003eDescription TBD\u003c/p\u003e",
-      "",
-      "",
-      "",
-      "",
-      "placeholder.jpg"
+      "\u003cp\u003eDescription TBD\u003c/p\u003e"
     ],
     [
       "35",
@@ -685,12 +538,7 @@
       "Session",
       "Session name TDB",
       "Speaker name TBD",
-      "\u003cp\u003eDescription TBD\u003c/p\u003e",
-      "",
-      "",
-      "",
-      "",
-      "placeholder.jpg"
+      "\u003cp\u003eDescription TBD\u003c/p\u003e"
     ],
     [
       "39",
@@ -703,12 +551,7 @@
       "Workshop",
       "Session name TDB",
       "Speaker name TBD",
-      "\u003cp\u003eDescription TBD\u003c/p\u003e",
-      "",
-      "",
-      "",
-      "",
-      "placeholder.jpg"
+      "\u003cp\u003eDescription TBD\u003c/p\u003e"
     ],
     [
       "40",
@@ -721,12 +564,7 @@
       "Session",
       "Session name TDB",
       "Speaker name TBD",
-      "\u003cp\u003eDescription TBD\u003c/p\u003e",
-      "",
-      "",
-      "",
-      "",
-      "placeholder.jpg"
+      "\u003cp\u003eDescription TBD\u003c/p\u003e"
     ],
     [
       "41",
@@ -739,12 +577,7 @@
       "Session",
       "Session name TDB",
       "Speaker name TBD",
-      "\u003cp\u003eDescription TBD\u003c/p\u003e",
-      "",
-      "",
-      "",
-      "",
-      "placeholder.jpg"
+      "\u003cp\u003eDescription TBD\u003c/p\u003e"
     ],
     [
       "make-it-glow",
@@ -762,7 +595,7 @@
       "",
       "",
       "",
-      "placeholder.jpg"
+      "workshop_glow.jpg"
     ],
     [
       "43",
@@ -775,12 +608,7 @@
       "Session",
       "Session name TDB",
       "Speaker name TBD",
-      "\u003cp\u003eDescription TBD\u003c/p\u003e",
-      "",
-      "",
-      "",
-      "",
-      "placeholder.jpg"
+      "\u003cp\u003eDescription TBD\u003c/p\u003e"
     ],
     [
       "44",
@@ -793,12 +621,7 @@
       "Session",
       "Session name TDB",
       "Speaker name TBD",
-      "\u003cp\u003eDescription TBD\u003c/p\u003e",
-      "",
-      "",
-      "",
-      "",
-      "placeholder.jpg"
+      "\u003cp\u003eDescription TBD\u003c/p\u003e"
     ],
     [
       "45",
@@ -811,12 +634,7 @@
       "Workshop",
       "Session name TDB",
       "Speaker name TBD",
-      "\u003cp\u003eDescription TBD\u003c/p\u003e",
-      "",
-      "",
-      "",
-      "",
-      "placeholder.jpg"
+      "\u003cp\u003eDescription TBD\u003c/p\u003e"
     ],
     [
       "46",
@@ -829,12 +647,7 @@
       "Session",
       "Session name TDB",
       "Speaker name TBD",
-      "\u003cp\u003eDescription TBD\u003c/p\u003e",
-      "",
-      "",
-      "",
-      "",
-      "placeholder.jpg"
+      "\u003cp\u003eDescription TBD\u003c/p\u003e"
     ],
     [
       "47",
@@ -847,12 +660,7 @@
       "Session",
       "Session name TDB",
       "Speaker name TBD",
-      "\u003cp\u003eDescription TBD\u003c/p\u003e",
-      "",
-      "",
-      "",
-      "",
-      "placeholder.jpg"
+      "\u003cp\u003eDescription TBD\u003c/p\u003e"
     ],
     [
       "48",
@@ -865,12 +673,7 @@
       "Workshop",
       "WORKSHOP: INVENTURE: MAKE IT GLOW",
       "Jessica Cobb",
-      "\u003cp\u003eSee descitption in 9:30AM slot\u003c/p\u003e",
-      "",
-      "",
-      "",
-      "",
-      "placeholder.jpg"
+      "\u003cp\u003eSee descitption in 9:30AM slot\u003c/p\u003e"
     ],
     [
       "49",
@@ -886,9 +689,7 @@
       "\u003cp\u003eDescription TBD\u003c/p\u003e",
       "",
       "",
-      "-",
-      "",
-      "placeholder.jpg"
+      "-"
     ],
     [
       "50",
@@ -907,7 +708,7 @@
       "-"
     ],
     [
-      "Cobb",
+      "Jessica-Cobb",
       "51",
       "2",
       "green",
@@ -920,7 +721,9 @@
       "\u003cp\u003eJessica Cobb will be our keynote speaker on Saturday. This should be a fun one! Jessica is an international emerging technologist and the founder of \u003ca href=\"https://missioncontrollab.com/\"\u003eMISSION CONTROL LAB\u003c/a\u003e. She asserts that as agents of “inventure” we can cultivate future-fitness for ourselves, while influencing the causeways shared between humans, nature and machines.\u003c/p\u003e",
       "",
       "",
-      "-"
+      "-",
+      "",
+      "keynote_2024_cobb.png"
     ],
     [
       "52",
@@ -933,12 +736,7 @@
       "Session",
       "Session name TDB",
       "Speaker name TBD",
-      "\u003cp\u003eDescription TBD\u003c/p\u003e",
-      "",
-      "",
-      "",
-      "",
-      "placeholder.jpg"
+      "\u003cp\u003eDescription TBD\u003c/p\u003e"
     ],
     [
       "53",
@@ -951,12 +749,7 @@
       "Workshop",
       "Session name TDB",
       "Speaker name TBD",
-      "\u003cp\u003eDescription TBD\u003c/p\u003e",
-      "",
-      "",
-      "",
-      "",
-      "placeholder.jpg"
+      "\u003cp\u003eDescription TBD\u003c/p\u003e"
     ],
     [
       "54",
@@ -969,12 +762,7 @@
       "Session",
       "Session name TDB",
       "Speaker name TBD",
-      "\u003cp\u003eDescription TBD\u003c/p\u003e",
-      "",
-      "",
-      "",
-      "",
-      "placeholder.jpg"
+      "\u003cp\u003eDescription TBD\u003c/p\u003e"
     ],
     [
       "55",
@@ -987,12 +775,7 @@
       "Session",
       "Session name TDB",
       "Speaker name TBD",
-      "\u003cp\u003eDescription TBD\u003c/p\u003e",
-      "",
-      "",
-      "",
-      "",
-      "placeholder.jpg"
+      "\u003cp\u003eDescription TBD\u003c/p\u003e"
     ],
     [
       "56",
@@ -1005,12 +788,7 @@
       "Workshop",
       "Session name TDB",
       "Speaker name TBD",
-      "\u003cp\u003eDescription TBD\u003c/p\u003e",
-      "",
-      "",
-      "",
-      "",
-      "placeholder.jpg"
+      "\u003cp\u003eDescription TBD\u003c/p\u003e"
     ],
     [
       "57",
@@ -1023,12 +801,7 @@
       "Session",
       "Session name TDB",
       "Speaker name TBD",
-      "\u003cp\u003eDescription TBD\u003c/p\u003e",
-      "",
-      "",
-      "",
-      "",
-      "placeholder.jpg"
+      "\u003cp\u003eDescription TBD\u003c/p\u003e"
     ],
     [
       "58",
@@ -1041,12 +814,7 @@
       "Session",
       "Session name TDB",
       "Speaker name TBD",
-      "\u003cp\u003eDescription TBD\u003c/p\u003e",
-      "",
-      "",
-      "",
-      "",
-      "placeholder.jpg"
+      "\u003cp\u003eDescription TBD\u003c/p\u003e"
     ],
     [
       "59",
@@ -1059,12 +827,7 @@
       "Workshop",
       "Session name TDB",
       "Speaker name TBD",
-      "\u003cp\u003eDescription TBD\u003c/p\u003e",
-      "",
-      "",
-      "",
-      "",
-      "placeholder.jpg"
+      "\u003cp\u003eDescription TBD\u003c/p\u003e"
     ],
     [
       "60",
@@ -1077,12 +840,7 @@
       "Session",
       "Session name TDB",
       "Speaker name TBD",
-      "\u003cp\u003eDescription TBD\u003c/p\u003e",
-      "",
-      "",
-      "",
-      "",
-      "placeholder.jpg"
+      "\u003cp\u003eDescription TBD\u003c/p\u003e"
     ],
     [
       "61",
@@ -1095,12 +853,7 @@
       "Session",
       "Session name TDB",
       "Speaker name TBD",
-      "\u003cp\u003eDescription TBD\u003c/p\u003e",
-      "",
-      "",
-      "",
-      "",
-      "placeholder.jpg"
+      "\u003cp\u003eDescription TBD\u003c/p\u003e"
     ],
     [
       "terra-forming",
@@ -1118,7 +871,7 @@
       "",
       "",
       "",
-      "placeholder.jpg"
+      "workshop_terra.jpg"
     ],
     [
       "63",
@@ -1131,12 +884,7 @@
       "Session",
       "Session name TDB",
       "Speaker name TBD",
-      "\u003cp\u003eDescription TBD\u003c/p\u003e",
-      "",
-      "",
-      "",
-      "",
-      "placeholder.jpg"
+      "\u003cp\u003eDescription TBD\u003c/p\u003e"
     ],
     [
       "64",
@@ -1149,12 +897,7 @@
       "Session",
       "Session name TDB",
       "Speaker name TBD",
-      "\u003cp\u003eDescription TBD\u003c/p\u003e",
-      "",
-      "",
-      "",
-      "",
-      "placeholder.jpg"
+      "\u003cp\u003eDescription TBD\u003c/p\u003e"
     ],
     [
       "65",
@@ -1167,12 +910,7 @@
       "Workshop",
       "Session name TDB",
       "Speaker name TBD",
-      "\u003cp\u003eDescription TBD\u003c/p\u003e",
-      "",
-      "",
-      "",
-      "",
-      "placeholder.jpg"
+      "\u003cp\u003eDescription TBD\u003c/p\u003e"
     ],
     [
       "66",
@@ -1185,12 +923,7 @@
       "Session",
       "Session name TDB",
       "Speaker name TBD",
-      "\u003cp\u003eDescription TBD\u003c/p\u003e",
-      "",
-      "",
-      "",
-      "",
-      "placeholder.jpg"
+      "\u003cp\u003eDescription TBD\u003c/p\u003e"
     ],
     [
       "67",
@@ -1203,12 +936,7 @@
       "Session",
       "Session name TDB",
       "Speaker name TBD",
-      "\u003cp\u003eDescription TBD\u003c/p\u003e",
-      "",
-      "",
-      "",
-      "",
-      "placeholder.jpg"
+      "\u003cp\u003eDescription TBD\u003c/p\u003e"
     ],
     [
       "68",
@@ -1221,12 +949,7 @@
       "Workshop",
       "WORKSHOP: INVENTURE : TERRA-FORMING",
       "Jessica Cobb",
-      "\u003cp\u003eSee descitption in 3:15PM slot\u003c/p\u003e",
-      "",
-      "",
-      "",
-      "",
-      "placeholder.jpg"
+      "\u003cp\u003eSee descitption in 3:15PM slot\u003c/p\u003e"
     ],
     [
       "69",
@@ -1239,12 +962,7 @@
       "Session",
       "Session name TDB",
       "Speaker name TBD",
-      "\u003cp\u003eDescription TBD\u003c/p\u003e",
-      "",
-      "",
-      "",
-      "",
-      "placeholder.jpg"
+      "\u003cp\u003eDescription TBD\u003c/p\u003e"
     ],
     [
       "70",
