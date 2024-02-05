@@ -166,7 +166,7 @@
       "805",
       "Talk",
       "AI in the Hiring Process",
-      "Heidi Stanclift",
+      "Heidi Stanclift, Gretchen Duhaime, Lynn Schumman, Ang Buxton",
       "\u003cp\u003eThe hiring process has changed again. Applicants now use AI to apply, answer questions and anything else to get foot in the door. How do you sift through all this information to find the people that are truly interested in your opening?\u003c/p\u003e"
     ],
     [
@@ -804,17 +804,17 @@
       "\u003cp\u003eSome times a good practice is overused, and in that overuse, results in less maintainable code.\u003c/p\u003e"
     ],
     [
-      "58",
+      "ganssle",
       "58",
       "2",
       "grey",
       "3:15 PM",
       "4:00 PM",
       "803",
-      "Session",
-      "Session name TDB",
-      "Speaker name TBD",
-      "\u003cp\u003eDescription TBD\u003c/p\u003e"
+      "Talk",
+      "Using a Progressive Web App to Teach My Son Absolute Pitch",
+      "Paul Ganssle",
+      "\u003cp\u003eAfter discovering the \"Eguchi Method\" for training children to have absolute or \"perfect\" pitch, I wanted to try it with my son, but I didn't have a convenient way to produce the chord sounds required by the method. In this talk, I'll discuss how — despite extremely limited experience with front-end development — I built a web app to solve my problem.\u003c/p\u003e"
     ],
     [
       "59",
