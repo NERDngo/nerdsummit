@@ -63,7 +63,7 @@
       "Talk",
       "Intro to Infrastructure as Code",
       "Andrew Aiken",
-      "\u003cpThe talk will cover the basics of infrastructure as code using Terraform.\u003c/p\u003e"
+      "\u003cp\u003eThe talk will cover the basics of infrastructure as code using Terraform.\u003c/p\u003e"
     ],
     [
       "4",
@@ -74,22 +74,22 @@
       "10:15 AM",
       "804",
       "Workshop",
-      "Session name TDB",
+      "Empty Workshop Room ",
       "Speaker name TBD",
       "\u003cp\u003eDescription TBD\u003c/p\u003e"
     ],
     [
-      "5",
+      "goldsaito-2",
       "5",
       "1",
       "white",
       "9:30 AM",
       "10:15 AM",
       "805",
-      "Session",
-      "Session name TDB",
-      "Speaker name TBD",
-      "\u003cp\u003eDescription TBD\u003c/p\u003e"
+      "Talk",
+      "Taking AI outside the chatbox",
+      "Jonah Goldsaito",
+      "\u003cp\u003eMost people’s first experiences with generative AI was in a chat context.\u003c/p\u003e\n\u003cp\u003eBut LLMs (the tech behind models like GPT4) can generate anything that can be represented in text, from SVGs, to chess moves, to whatever structured data you need in your app. \u003c/p\u003e\n\u003cp\u003ePrompt engineering is necessary, but mostly not technical at all, and we’ll start with the anatomy of a prompt. This expands much further when you chain prompts together to pull in or push out data (LangChain). \u003c/p\u003e\n\u003cp\u003eSuddenly anyone with a product hypothesis can rapidly prototype and validate complex user interactions. Let’s get you started.\u003c/p\u003e"
     ],
     [
       "peck",
@@ -152,7 +152,7 @@
       "11:15 AM",
       "804",
       "Workshop",
-      "Session name TDB",
+      "Empty Workshop Room ",
       "Speaker name TBD",
       "\u003cp\u003eDescription TBD\u003c/p\u003e"
     ],
@@ -441,17 +441,17 @@
       "\u003cp\u003ePublic Interest Technology (PIT) is an emerging field that asks us to create technical solutions that center the lives of people, equity, inclusion, and accountability to address pressing problems.  While PIT continues to grow, all technologists can learn how to approach problems like a public interest technologist to ensure technology works to serve and protect those who use it by delivering better outcomes.\u003c/p\u003e\n\u003cp\u003eThis discussion will introduce the practice of PIT and how everyone can critically assess technology's ethical and social implementation across all sectors. \u003c/p\u003e"
     ],
     [
-      "32",
+      "goldsaito-1",
       "32",
       "1",
       "white",
       "4:15 PM",
       "5:00 PM",
       "903",
-      "Session",
-      "Session name TDB",
-      "Speaker name TBD",
-      "\u003cp\u003eDescription TBD\u003c/p\u003e"
+      "Talk",
+      "An AR transmission from the future, launched at Tribeca",
+      "Jonah Goldsaito",
+      "\u003cp\u003eThis is the story of creating ReachYou, a piece of sci fi episodic communal art in augmented reality. An experiment in humane technology. And something made with pure joy.\u003c/p\u003e\n\u003cp\u003eReachYou was the product of a multi-generational nomadic experience. A rebirth of a live, software-assisted performance in Kazakhstan by the Goldsaitos. And a reaction to the ever growing attention economy and eventually our isolation (magnified by COVID). \u003c/p\u003e\n\u003cp\u003eJonah, the presenter, was the sole engineer, designer, and visual artist.\u003c/p\u003e\n\u003cp\u003eCome hear the story of its iterative creation and path to the Tribeca Film Festival.\u003c/p\u003e"
     ],
     [
       "33",
@@ -538,10 +538,10 @@
       "Talk",
       "Meet the Raspberry Pi",
       "Stephen Cross",
-      "\u003cp\u003eWhat is a Raspberry Pi\u003c/p\u003e"
+      "\u003cp\u003e\"Meet the Raspberry Pi\" will answer the questions \"What is a Raspberry Pi?\" and \"What can I use it for?\". This session will cover a brief history of the company and the mission behind this wildly successful credit-card-sized computer. We will review the Raspberry Pi models available and what you can use them for. And most importantly, how to get started.\u003c/p\u003e"
     ],
     [
-      "OpenPGPjs",
+      "39",
       "39",
       "2",
       "white",
@@ -549,9 +549,9 @@
       "10:15 AM",
       "804",
       "Workshop",
-      "WORKSHOP: Protected content with OpenPGPjs",
-      "Rodrigo Panchiniak Fernandes",
-      "\u003cp\u003eTicket required see:  \u003ca href=\"https://ti.to/nerd/nerd-summit-2024-tickets#tito-ticket-workshop-protected-content-with-openpgpjs\"\u003e TICKETS\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eUsing OpenPGPjs you can offer zero knowledge proof encryption for your users. This means that not even you, as site owner, sysadmin or developer will have access to private content. This is possible because of an asymmetric encryption protocol where encryption and decryption happens on client side, as well as key creation. In the last years I've been working on the Protected Content module and in this training you will learn how to use it. \u003c/p\u003e"
+      "Empty Workshop Room ",
+      "Speaker name TBD",
+      "\u003cp\u003eDescription TBD\u003c/p\u003e"
     ],
     [
       "ciak",
@@ -632,9 +632,9 @@
       "11:15 AM",
       "804",
       "Workshop",
-      "WORKSHOP: Protected content with OpenPGPjs",
-      "Rodrigo Panchiniak Fernandes",
-      "\u003cp\u003eSee description in 9:30AM time slot\u003c/p\u003e"
+      "Empty Workshop Room ",
+      "Speaker name TBD",
+      "\u003cp\u003eDescription TBD\u003c/p\u003e"
     ],
     [
       "duany",
@@ -676,17 +676,17 @@
       "\u003cp\u003eSee descitption in 9:30AM slot\u003c/p\u003e"
     ],
     [
-      "goldsaito-1",
+      "49",
       "49",
       "2",
       "grey",
       "10:30 AM",
       "11:15 AM",
       "905",
-      "Talk",
-      "An AR transmission from the future, launched at Tribeca",
-      "Jonah Goldsaito",
-      "\u003cp\u003eThis is the story of creating ReachYou, a piece of sci fi episodic communal art in augmented reality. An experiment in humane technology. And something made with pure joy.\u003c/p\u003e\n\u003cp\u003eReachYou was the product of a multi-generational nomadic experience. A rebirth of a live, software-assisted performance in Kazakhstan by the Goldsaitos. And a reaction to the ever growing attention economy and eventually our isolation (magnified by COVID). \u003c/p\u003e\n\u003cp\u003eJonah, the presenter, was the sole engineer, designer, and visual artist.\u003c/p\u003e\n\u003cp\u003eCome hear the story of its iterative creation and path to the Tribeca Film Festival.\u003c/p\u003e",
+      "Session",
+      "Session name TDB",
+      "Speaker name TBD",
+      "\u003cp\u003eDescription TBD\u003c/p\u003e",
       "",
       "",
       "-"
@@ -726,17 +726,17 @@
       "keynote_2024_cobb.png"
     ],
     [
-      "52",
+      "svrcek",
       "52",
       "2",
       "white",
       "2:15 PM",
       "3:00 PM",
       "803",
-      "Session",
-      "Session name TDB",
-      "Speaker name TBD",
-      "\u003cp\u003eDescription TBD\u003c/p\u003e"
+      "Talk",
+      "Getting Going with Geospatial",
+      "Joseph Svrcek",
+      "\u003cp\u003eThis is an introduction to geospatial data.  Geospatial data is any kind of information that has geographic coordinates associated with it.  We'll discuss different geospatial data types, formats, services, and sources.  \u003c/p\u003e"
     ],
     [
       "53",
@@ -747,9 +747,9 @@
       "3:00 PM",
       "804",
       "Workshop",
-      "WORKSHOP: Protected content with OpenPGPjs",
-      "Rodrigo Panchiniak Fernandes",
-      "\u003cp\u003eSee description in 9:30AM time slot\u003c/p\u003e"
+      "Empty Workshop Room ",
+      "Speaker name TBD",
+      "\u003cp\u003eDescription TBD\u003c/p\u003e"
     ],
     [
       "hakkarainen",
@@ -786,7 +786,7 @@
       "3:00 PM",
       "904",
       "Workshop",
-      "Session name TDB",
+      "Empty Workshop Room ",
       "Speaker name TBD",
       "\u003cp\u003eDescription TBD\u003c/p\u003e"
     ],
@@ -825,9 +825,9 @@
       "4:00 PM",
       "804",
       "Workshop",
-      "WORKSHOP: Protected content with OpenPGPjs",
-      "Rodrigo Panchiniak Fernandes",
-      "\u003cp\u003eSee description in 9:30AM time slot\u003c/p\u003e"
+      "Empty Workshop Room ",
+      "Speaker name TBD",
+      "\u003cp\u003eDescription TBD\u003c/p\u003e"
     ],
     [
       "neslund",
@@ -908,25 +908,25 @@
       "5:00 PM",
       "804",
       "Workshop",
-      "WORKSHOP: Protected content with OpenPGPjs",
-      "Rodrigo Panchiniak Fernandes",
-      "\u003cp\u003eSee description in 9:30AM time slot\u003c/p\u003e"
+      "Empty Workshop Room ",
+      "Speaker name TBD",
+      "\u003cp\u003eDescription TBD\u003c/p\u003e"
     ],
     [
-      "svrcek",
+      "66",
       "66",
       "2",
       "white",
       "4:15 PM",
       "5:00 PM",
       "805",
-      "Talk",
-      "Getting Going with Geospatial",
-      "Joseph Svrcek",
-      "\u003cp\u003eThis is an introduction to geospatial data.  Geospatial data is any kind of information that has geographic coordinates associated with it.  We'll discuss different geospatial data types, formats, services, and sources.  \u003c/p\u003e"
+      "Session",
+      "Session name TDB",
+      "Speaker name TBD",
+      "\u003cp\u003eDescription TBD\u003c/p\u003e"
     ],
     [
-      "goldsaito-2",
+      "67",
       "67",
       "2",
       "white",
@@ -934,9 +934,9 @@
       "5:00 PM",
       "903",
       "Session",
-      "Taking AI outside the chatbox",
-      "Jonah Goldsaito",
-      "\u003cp\u003eMost people’s first experiences with generative AI was in a chat context.\u003c/p\u003e\n\u003cp\u003eBut LLMs (the tech behind models like GPT4) can generate anything that can be represented in text, from SVGs, to chess moves, to whatever structured data you need in your app. \u003c/p\u003e\n\u003cp\u003ePrompt engineering is necessary, but mostly not technical at all, and we’ll start with the anatomy of a prompt. This expands much further when you chain prompts together to pull in or push out data (LangChain). \u003c/p\u003e\n\u003cp\u003eSuddenly anyone with a product hypothesis can rapidly prototype and validate complex user interactions. Let’s get you started.\u003c/p\u003e"
+      "Session name TDB",
+      "Speaker name TBD",
+      "\u003cp\u003eDescription TBD\u003c/p\u003e"
     ],
     [
       "68",
