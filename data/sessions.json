@@ -79,7 +79,7 @@
       "\u003cp\u003eDescription TBD\u003c/p\u003e"
     ],
     [
-      "goldsaito-2",
+      "stanclift",
       "5",
       "1",
       "white",
@@ -87,9 +87,9 @@
       "10:15 AM",
       "805",
       "Talk",
-      "Taking AI outside the chatbox",
-      "Jonah Goldsaito",
-      "\u003cp\u003eMost people’s first experiences with generative AI was in a chat context.\u003c/p\u003e\n\u003cp\u003eBut LLMs (the tech behind models like GPT4) can generate anything that can be represented in text, from SVGs, to chess moves, to whatever structured data you need in your app. \u003c/p\u003e\n\u003cp\u003ePrompt engineering is necessary, but mostly not technical at all, and we’ll start with the anatomy of a prompt. This expands much further when you chain prompts together to pull in or push out data (LangChain). \u003c/p\u003e\n\u003cp\u003eSuddenly anyone with a product hypothesis can rapidly prototype and validate complex user interactions. Let’s get you started.\u003c/p\u003e"
+      "AI in the Hiring Process",
+      "Heidi Stanclift, Gretchen Duhaime, Lynn Schumman, Ang Buxton",
+      "\u003cp\u003eThe hiring process has changed again. Applicants now use AI to apply, answer questions and anything else to get foot in the door. How do you sift through all this information to find the people that are truly interested in your opening?\u003c/p\u003e"
     ],
     [
       "peck",
@@ -157,30 +157,30 @@
       "\u003cp\u003eDescription TBD\u003c/p\u003e"
     ],
     [
-      "stanclift",
+      "11",
       "11",
       "1",
       "grey",
       "10:30 AM",
       "11:15 AM",
       "805",
-      "Talk",
-      "AI in the Hiring Process",
-      "Heidi Stanclift, Gretchen Duhaime, Lynn Schumman, Ang Buxton",
-      "\u003cp\u003eThe hiring process has changed again. Applicants now use AI to apply, answer questions and anything else to get foot in the door. How do you sift through all this information to find the people that are truly interested in your opening?\u003c/p\u003e"
+      "Session",
+      "Session name TDB",
+      "Speaker name TBD",
+      "\u003cp\u003eDescription TBD\u003c/p\u003e"
     ],
     [
-      "12",
+      "goldsaito-2",
       "12",
       "1",
       "grey",
       "10:30 AM",
       "11:15 AM",
       "903",
-      "Session",
-      "Session name TDB",
-      "Speaker name TBD",
-      "\u003cp\u003eDescription TBD\u003c/p\u003e"
+      "Talk",
+      "Taking AI outside the chatbox",
+      "Jonah Goldsaito",
+      "\u003cp\u003eMost people’s first experiences with generative AI was in a chat context.\u003c/p\u003e\n\u003cp\u003eBut LLMs (the tech behind models like GPT4) can generate anything that can be represented in text, from SVGs, to chess moves, to whatever structured data you need in your app. \u003c/p\u003e\n\u003cp\u003ePrompt engineering is necessary, but mostly not technical at all, and we’ll start with the anatomy of a prompt. This expands much further when you chain prompts together to pull in or push out data (LangChain). \u003c/p\u003e\n\u003cp\u003eSuddenly anyone with a product hypothesis can rapidly prototype and validate complex user interactions. Let’s get you started.\u003c/p\u003e"
     ],
     [
       "13",
