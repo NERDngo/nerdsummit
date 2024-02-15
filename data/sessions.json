@@ -157,17 +157,17 @@
       "\u003cp\u003eDescription TBD\u003c/p\u003e"
     ],
     [
-      "11",
+      "women-in-tech",
       "11",
       "1",
       "grey",
       "10:30 AM",
       "11:15 AM",
       "805",
-      "Session",
-      "Session name TBD",
-      "Speaker name TBD",
-      "\u003cp\u003eDescription TBD\u003c/p\u003e"
+      "Panel",
+      "Women in IT and Tech  [tentative]",
+      "The Tech Foundry",
+      "\u003cp\u003eA panel on Women in IT and Tech.  Details coming soon.\u003c/p\u003e"
     ],
     [
       "goldsaito-2",
@@ -285,17 +285,17 @@
       "\u003cp\u003eJoin us in for 'HTMX Unleashed' to learn how to leverage HTMX, a lightweight yet powerful JavaScript library, for simpler, more accessible web app development for ALL developers. We'll explore how HTMX enhances HTML for dynamic web pages, minimizing the need for complex JavaScript and dependencies. Discover the benefits of a HTMX tech stack using AlpineJS, TailwindCSS, and FastAPI. We'll present practical scenarios and showcase effective web tools developed with this stack. Attend 'HTMX Unleashed' for insights into efficient web development strategies that could enhance your projects.\u003c/p\u003e"
     ],
     [
-      "20",
+      "sage",
       "20",
       "1",
       "white",
       "2:15 PM",
       "5:00 PM",
       "903",
-      "Session",
-      "Session name TBD",
-      "Speaker name TBD",
-      "\u003cp\u003eDescription TBD\u003c/p\u003e"
+      "Talk",
+      "Disability Drives Design",
+      "Sage Orville Shea",
+      "\u003cp\u003eDisabled designers have long been some of the biggest movers and shakers in the field. Forced to constantly adapt to a world not built for them, disability has always driven innovation. From audiobooks in the 1930s to touch screens long before the first iPhone, countless technological advances have emerged from (not for) disabled communities. Yet, history has long repackaged these brilliant designers as recipients and users, not creators, of innovation. Why?\u003c/p\u003e\n\u003cp\u003eThis talk will cover the dark history that propelled the medical model of disability to its modern day prevalence, the Disabled Civil Rights Movement, the endless contributions disabled designers have made to our field, and steps your firm should take when approaching inclusive design. \u003c/p\u003e"
     ],
     [
       "21",
@@ -324,17 +324,17 @@
       "\u003cp\u003eWhen working with color on the web, we’ve always had a few choices. What are the new color options in CSS, and what do they add to the variety of color choices we already have? \u003c/p\u003e\n\u003cp\u003eIn this talk, I will discuss: \u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eWhat’s new in the CSS Color Module Levels 4 and 5\u003c/li\u003e\n\u003cli\u003eAn overview of color spaces available today\u003c/li\u003e\n\u003cli\u003e How to use some of the new CSS color functions \u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003eAnd more!\u003c/p\u003e\n\u003cp\u003eAttendees will come away from this session with a deeper knowledge of the new color spaces and CSS color functions to make adding color to your site even easier!\u003c/p\u003e"
     ],
     [
-      "nutile",
+      "newman",
       "23",
       "1",
       "grey",
       "3:15 PM",
       "4:00 PM",
       "803",
-      "Session",
-      "Session name TBD",
-      "Speaker name TBD",
-      "\u003cp\u003eDescription TBD\u003c/p\u003e"
+      "Talk",
+      "Not Speaking Your Code? How To Use Strengths to Collaborate Better",
+      "Dan Newman",
+      "\u003cp\u003eYou might feel good about how to refactor JavaScript into Python, but can you explain a feature change to a sales rep so they can explain it to a prospect? No matter how well you define your variables, your non-technical colleagues and you need to work as a team and that starts with good communication. In this talk, we will explore how your strengths- natural aptitude plus learned skills and experiences- can help you connect with colleagues that don’t know their frontend from their backend and collaborate more effectively.\u003c/p\u003e"
     ],
     [
       "24",
