@@ -53,7 +53,7 @@
       "-"
     ],
     [
-      "aiken",
+      "3",
       "3",
       "1",
       "white",
@@ -118,30 +118,30 @@
       "\u003cp\u003eTicket required see:  \u003ca href=\"https://ti.to/nerd/nerd-summit-2024-tickets#tito-ticket-workshop-ai-enhanced-coding-a-practical-workshop-for-all-levels\"\u003e TICKETS\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eThis training is designed for those new to using AI in programming. It offers a comprehensive introduction to using AI as a coding assistant, covering everything from setting up AI tools to effectively utilizing them for coding tasks. With a focus on practical, hands-on learning, this guide is perfect for programmers of any level who are eager to explore the benefits of AI in their coding endeavors and enhance their programming skills.\u003c/p\u003e"
     ],
     [
-      "8",
+      "women-in-tech",
       "8",
       "1",
       "white",
       "9:30 AM",
       "10:15 AM",
       "905",
-      "Session",
-      "Session name TBD",
-      "Speaker name TBD",
-      "\u003cp\u003eDescription TBD\u003c/p\u003e"
+      "Panel",
+      "Women in IT and Tech ",
+      "The Tech Foundry",
+      "\u003cp\u003eA panel on Women in IT and Tech.  Details coming soon.\u003c/p\u003e"
     ],
     [
-      "9",
+      "aiken",
       "9",
       "1",
       "grey",
       "10:30 AM",
       "11:15 AM",
       "803",
-      "Session",
-      "Session name TBD",
-      "Speaker name TBD",
-      "\u003cp\u003eDescription TBD\u003c/p\u003e"
+      "Talk",
+      "Intro to Infrastructure as Code",
+      "Andrew Aiken",
+      "\u003cp\u003eThe talk will cover the basics of infrastructure as code using Terraform.\u003c/p\u003e"
     ],
     [
       "10",
@@ -157,17 +157,17 @@
       "\u003cp\u003eDescription TBD\u003c/p\u003e"
     ],
     [
-      "women-in-tech",
+      "11",
       "11",
       "1",
       "grey",
       "10:30 AM",
       "11:15 AM",
       "805",
-      "Panel",
-      "Women in IT and Tech  [tentative]",
-      "The Tech Foundry",
-      "\u003cp\u003eA panel on Women in IT and Tech.  Details coming soon.\u003c/p\u003e"
+      "Session",
+      "Session name TBD",
+      "Speaker name TBD",
+      "\u003cp\u003eDescription TBD\u003c/p\u003e"
     ],
     [
       "goldsaito-2",
