@@ -1,5 +1,5 @@
 {
-  "range": "SPONSORS!A1:E17",
+  "range": "SPONSORS!A1:E23",
   "majorDimension": "ROWS",
   "values": [
     [
@@ -18,14 +18,14 @@
     ],
     [
       "2",
-      "Platinum",
-      "https://www.cns.umass.edu/",
-      "https://nerdsummit.org/images/CNS-wordmark.jpg",
-      "UMass CNS"
+      "Silver",
+      "https://www.mightyacorn.com/",
+      "https://nerdsummit.org/images/mighty_acorn.png",
+      "Mighty Acorn"
     ],
     [
       "3",
-      "Gold",
+      "Silver",
       "https://www.commonmedia.com/",
       "https://nerdsummit.org/images/common_media_23.png",
       "Common Media"
@@ -33,93 +33,135 @@
     [
       "4",
       "Silver",
-      "https://factastudio.com/",
-      "https://nerdsummit.org/images/facta.png",
-      "FACTA"
+      "https://www.cics.umass.edu/",
+      "https://nerdsummit.org/images/UMass_CICS.jpg",
+      "UMass CICS"
     ],
     [
       "5",
-      "Keynote",
-      "https://www.knectar.com/",
-      "https://nerdsummit.org/images/knectar-hor.png",
-      "Knectar"
-    ],
-    [
-      "6",
-      "Keynote",
-      "https://www.tag1consulting.com/",
-      "https://nerdsummit.org/images/tag1.png",
-      "Tag1"
-    ],
-    [
-      "7",
-      "Community",
+      "Bronze",
       "https://tinypilotkvm.com/",
       "https://nerdsummit.org/images/tiny_pilot.png",
       "Tiny Pilot"
     ],
     [
+      "6",
+      "Bronze",
+      "https://factastudio.com/",
+      "https://nerdsummit.org/images/facta.png",
+      "FACTA"
+    ],
+    [
+      "7",
+      "Community",
+      "https://www.tag1consulting.com/",
+      "https://nerdsummit.org/images/tag1.png",
+      "Tag1 Consulting"
+    ],
+    [
       "8",
       "Community",
-      "https://www.fitstaffingsolutions.com/",
-      "https://nerdsummit.org/images/fit-logo-2019.jpg",
-      "FIT Staffing"
+      "https://www.knectar.com/",
+      "https://nerdsummit.org/images/knectar-hor.png",
+      "Knectar"
     ],
     [
       "9",
       "Community",
-      "https://hilltownfamilies.org/",
-      "https://nerdsummit.org/images/HTF_square_logo.jpg",
-      "Hilltown Families"
+      "https://paragondigital.com/",
+      "https://nerdsummit.org/images/ParagonDigital.jpg",
+      "Paragon Digital Marketing"
     ],
     [
       "10",
       "Community",
-      "https://talkingdrupal.com/",
-      "https://nerdsummit.org/images/talking_drupal_logo.png",
-      "Talking Drupal"
+      "https://optasy.com/",
+      "https://nerdsummit.org/images/optasy.png",
+      "Optasy"
     ],
     [
       "11",
+      "Community",
+      "https://nedcamp.org/",
+      "https://nerdsummit.org/images/nedcamp.jpg",
+      "New England Drupal Camp"
+    ],
+    [
+      "12",
       "Community",
       "https://montaguewebworks.com/",
       "https://nerdsummit.org/images/MWW-RocketFusion.jpg",
       "Montague WebWorks"
     ],
     [
-      "12",
+      "13",
       "Community",
-      "https://www.messageagency.com/",
-      "https://nerdsummit.org/images/message-agency-2020.jpg",
-      "Message Agency"
+      "https://www.palantir.net/",
+      "https://nerdsummit.org/images/palantir.png",
+      "Palantir"
     ],
     [
-      "13",
+      "14",
       "Community",
       "https://plenti.co/",
       "https://nerdsummit.org/images/plentico.png",
       "Plentico"
     ],
     [
-      "14",
-      "Partner",
-      "https://www.hackdiversity.com/",
-      "https://nerdsummit.org/images/hack_diversity.png",
-      "Hack Diversity"
+      "15",
+      "Community",
+      "https://www.born-digital.com/",
+      "https://nerdsummit.org/images/born_digital.png",
+      "Born Digital"
     ],
     [
-      "15",
-      "Partner",
+      "16",
+      "Community",
       "https://thetechfoundry.org/",
       "https://nerdsummit.org/images/tech-foundry.png",
       "The Tech Foundry"
     ],
     [
-      "16",
-      "Partner",
-      "https://www.thedroptimes.com/",
-      "https://nerdsummit.org/images/the_drop_times.png",
-      "The Drop Times"
+      "17",
+      "Community",
+      "https://www.stephencross.com/",
+      "https://nerdsummit.org/images/stephen_cross.jpg",
+      "Stephen Cross"
+    ],
+    [
+      "18",
+      "Community",
+      "https://www.left-click.us/",
+      "https://nerdsummit.org/images/left_click.jpg",
+      "Left Click"
+    ],
+    [
+      "19",
+      "Community",
+      "",
+      "",
+      "Jim Skowyra"
+    ],
+    [
+      "20",
+      "Community",
+      "",
+      "",
+      "Kelly Albrecht"
+    ],
+    [
+      "21",
+      "Community",
+      "",
+      "",
+      "Tom Hoogendyk"
+    ],
+    [
+      "22",
+      "Community",
+      "",
+      "",
+      "Cheryl Handsaker"
     ]
   ]
 }
