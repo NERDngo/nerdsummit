@@ -1,5 +1,5 @@
 {
-  "range": "SPONSORS!A1:E23",
+  "range": "SPONSORS!A1:E26",
   "majorDimension": "ROWS",
   "values": [
     [
@@ -162,6 +162,27 @@
       "",
       "",
       "Cheryl Handsaker"
+    ],
+    [
+      "23",
+      "Partner",
+      "https://www.hackdiversity.com/",
+      "https://nerdsummit.org/images/hack_diversity.png",
+      "Hack Diversity"
+    ],
+    [
+      "24",
+      "Partner",
+      "https://www.thedroptimes.com/",
+      "https://nerdsummit.org/images/the_drop_times.png",
+      "The Drop Times"
+    ],
+    [
+      "25",
+      "Partnet",
+      "https://drupalize.me/",
+      "https://nerdsummit.org/images/drupalizeme-by-osiolabs-color.jpg",
+      "Drupalize.Me"
     ]
   ]
 }
