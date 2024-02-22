@@ -272,17 +272,17 @@
       "\u003cp\u003eTicket required see:  \u003ca href=\"https://ti.to/nerd/nerd-summit-2024-tickets#tito-ticket-training-microcontroller-introduction-with-raspberry-pi-pico\"\u003e TICKETS\u003c/a\u003e\n\u003cp\u003eA hands-on training with a Raspberry Pi microcontroller. Materials will be provided. A computer is required, so please bring your laptop.\u003c/p\u003e"
     ],
     [
-      "mcIntosh",
+      "19",
       "19",
       "1",
       "white",
       "2:15 PM",
       "3:00 PM",
       "805",
-      "Talk",
-      "HTMX Unleashed: Modern Web Tools Development with Minimal Effort and Maximum Impact",
-      "Michael McIntosh",
-      "\u003cp\u003eJoin us in for 'HTMX Unleashed' to learn how to leverage HTMX, a lightweight yet powerful JavaScript library, for simpler, more accessible web app development for ALL developers. We'll explore how HTMX enhances HTML for dynamic web pages, minimizing the need for complex JavaScript and dependencies. Discover the benefits of a HTMX tech stack using AlpineJS, TailwindCSS, and FastAPI. We'll present practical scenarios and showcase effective web tools developed with this stack. Attend 'HTMX Unleashed' for insights into efficient web development strategies that could enhance your projects.\u003c/p\u003e"
+      "Session",
+      "Session name TBD",
+      "Speaker name TBD",
+      "\u003cp\u003eDescription TBD\u003c/p\u003e"
     ],
     [
       "sage",
@@ -324,17 +324,17 @@
       "\u003cp\u003eWhen working with color on the web, we’ve always had a few choices. What are the new color options in CSS, and what do they add to the variety of color choices we already have? \u003c/p\u003e\n\u003cp\u003eIn this talk, I will discuss: \u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eWhat’s new in the CSS Color Module Levels 4 and 5\u003c/li\u003e\n\u003cli\u003eAn overview of color spaces available today\u003c/li\u003e\n\u003cli\u003e How to use some of the new CSS color functions \u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003eAnd more!\u003c/p\u003e\n\u003cp\u003eAttendees will come away from this session with a deeper knowledge of the new color spaces and CSS color functions to make adding color to your site even easier!\u003c/p\u003e"
     ],
     [
-      "newman",
+      "23",
       "23",
       "1",
       "grey",
       "3:15 PM",
       "4:00 PM",
       "803",
-      "Talk",
-      "Not Speaking Your Code? How To Use Strengths to Collaborate Better",
-      "Dan Newman",
-      "\u003cp\u003eYou might feel good about how to refactor JavaScript into Python, but can you explain a feature change to a sales rep so they can explain it to a prospect? No matter how well you define your variables, your non-technical colleagues and you need to work as a team and that starts with good communication. In this talk, we will explore how your strengths- natural aptitude plus learned skills and experiences- can help you connect with colleagues that don’t know their frontend from their backend and collaborate more effectively.\u003c/p\u003e"
+      "Session",
+      "Session name TBD",
+      "Speaker name TBD",
+      "\u003cp\u003eDescription TBD\u003c/p\u003e"
     ],
     [
       "24",
@@ -350,17 +350,17 @@
       "\u003cp\u003eSee descitpion in 2:15PM slot\u003c/p\u003e"
     ],
     [
-      "25",
+      "mcIntosh",
       "25",
       "1",
       "grey",
       "3:15 PM",
       "4:00 PM",
       "805",
-      "Session",
-      "Session name TBD",
-      "Speaker name TBD",
-      "\u003cp\u003eDescription TBD\u003c/p\u003e"
+      "Talk",
+      "HTMX Unleashed: Modern Web Tools Development with Minimal Effort and Maximum Impact",
+      "Michael McIntosh",
+      "\u003cp\u003eJoin us in for 'HTMX Unleashed' to learn how to leverage HTMX, a lightweight yet powerful JavaScript library, for simpler, more accessible web app development for ALL developers. We'll explore how HTMX enhances HTML for dynamic web pages, minimizing the need for complex JavaScript and dependencies. Discover the benefits of a HTMX tech stack using AlpineJS, TailwindCSS, and FastAPI. We'll present practical scenarios and showcase effective web tools developed with this stack. Attend 'HTMX Unleashed' for insights into efficient web development strategies that could enhance your projects.\u003c/p\u003e"
     ],
     [
       "rohrer",
