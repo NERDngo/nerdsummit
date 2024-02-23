@@ -53,30 +53,30 @@
       "-"
     ],
     [
-      "3",
+      "drupal",
       "3",
       "1",
       "white",
       "9:30 AM",
       "10:15 AM",
       "803",
-      "Talk",
-      "Intro to Infrastructure as Code",
-      "Andrew Aiken",
-      "\u003cp\u003eThe talk will cover the basics of infrastructure as code using Terraform.\u003c/p\u003e"
+      "Group discussion",
+      "Drupal Usability Meeting",
+      "Benji Fisher",
+      "\u003cp\u003eNote: since this room was free, the Drupal Usability Meeting will take place here.\u003c/p\u003e\n\u003cp\u003eThis meeting takes place every Friday at 14:00 UTC (currently 6:00am PT, 9:00am ET)\u003c/p\u003e\n\u003cp\u003eThe meetings are held using Zoom, and a link is posted in the #ux Slack channel 10 minutes before the meeting. Agenda is first come, first serve and set by attendees.  More \u003ca href=\"https://www.drupal.org/community/contributor-guide/task/participate-in-a-usability-meeting\"\u003eHERE\u003c/a\u003e. \u003c/p\u003e"
     ],
     [
-      "drupal",
+      "4",
       "4",
       "1",
       "white",
       "9:00 AM",
       "10:10 AM",
       "804",
-      "Group discussion",
-      "Drupal Usability Meeting",
-      "Benji Fisher",
-      "\u003cp\u003eNote: since this room was free, the Drupal Usability Meeting will take place here.\u003c/p\u003e\n\u003cp\u003eThis meeting takes place every Friday at 14:00 UTC (currently 6:00am PT, 9:00am ET)\u003c/p\u003e\n\u003cp\u003eThe meetings are held using Zoom, and a link is posted in the #ux Slack channel 10 minutes before the meeting. Agenda is first come, first serve and set by attendees.  More \u003ca href=\"https://www.drupal.org/community/contributor-guide/task/participate-in-a-usability-meeting\"\u003eHERE\u003c/a\u003e. \u003c/p\u003e"
+      "Workshop",
+      "Empty Workshop Room ",
+      "Speaker name TBD",
+      "\u003cp\u003eDescription TBD\u003c/p\u003e"
     ],
     [
       "stanclift",
