@@ -75,8 +75,8 @@
       "804",
       "Workshop",
       "Empty Workshop Room ",
-      "Speaker name TBD",
-      "\u003cp\u003eDescription TBD\u003c/p\u003e"
+      "-",
+      "\u003cp\u003eFeel free to use this room if you like.\u003c/p\u003e"
     ],
     [
       "stanclift",
@@ -153,8 +153,8 @@
       "804",
       "Workshop",
       "Empty Workshop Room ",
-      "Speaker name TBD",
-      "\u003cp\u003eDescription TBD\u003c/p\u003e"
+      "-",
+      "\u003cp\u003eFeel free to use this room if you like.\u003c/p\u003e"
     ],
     [
       "hakkarainen",
@@ -179,8 +179,8 @@
       "903",
       "Session",
       "Empty Session Room",
-      "Speaker name TBD",
-      "\u003cp\u003eDescription TBD\u003c/p\u003e"
+      "-",
+      "\u003cp\u003eFeel free to use this room if you like.\u003c/p\u003e"
     ],
     [
       "13",
@@ -281,8 +281,8 @@
       "805",
       "Session",
       "Empty Session Room",
-      "Speaker name TBD",
-      "\u003cp\u003eDescription TBD\u003c/p\u003e"
+      "-",
+      "\u003cp\u003eFeel free to use this room if you like.\u003c/p\u003e"
     ],
     [
       "sage",
@@ -333,8 +333,8 @@
       "803",
       "Session",
       "Empty Session Room",
-      "Speaker name TBD",
-      "\u003cp\u003eDescription TBD\u003c/p\u003e"
+      "-",
+      "\u003cp\u003eFeel free to use this room if you like.\u003c/p\u003e"
     ],
     [
       "24",
@@ -347,7 +347,7 @@
       "Workshop",
       "WORKSHOP: Microcontroller  introduction with Raspberry Pi Pico (Half Day)",
       "Stephen Cross",
-      "\u003cp\u003eSee descitpion in 2:15PM slot\u003c/p\u003e"
+      "\u003cp\u003eSee description in 2:15PM slot\u003c/p\u003e"
     ],
     [
       "mcIntosh",
@@ -450,8 +450,8 @@
       "903",
       "Session",
       "Empty Session Room",
-      "Speaker name TBD",
-      "\u003cp\u003eDescription TBD\u003c/p\u003e"
+      "-",
+      "\u003cp\u003eFeel free to use this room if you like.\u003c/p\u003e"
     ],
     [
       "33",
@@ -550,8 +550,8 @@
       "804",
       "Workshop",
       "Empty Session Room",
-      "Speaker name TBD",
-      "\u003cp\u003eDescription TBD\u003c/p\u003e"
+      "-",
+      "\u003cp\u003eFeel free to use this room if you like.\u003c/p\u003e"
     ],
     [
       "ciak",
@@ -633,8 +633,8 @@
       "804",
       "Workshop",
       "Empty Workshop Room ",
-      "Speaker name TBD",
-      "\u003cp\u003eDescription TBD\u003c/p\u003e"
+      "-",
+      "\u003cp\u003eFeel free to use this room if you like.\u003c/p\u003e"
     ],
     [
       "duany",
@@ -748,8 +748,8 @@
       "804",
       "Workshop",
       "Empty Workshop Room ",
-      "Speaker name TBD",
-      "\u003cp\u003eDescription TBD\u003c/p\u003e"
+      "-",
+      "\u003cp\u003eFeel free to use this room if you like.\u003c/p\u003e"
     ],
     [
       "goldsaito-2",
@@ -787,8 +787,8 @@
       "904",
       "Workshop",
       "Empty Workshop Room ",
-      "Speaker name TBD",
-      "\u003cp\u003eDescription TBD\u003c/p\u003e"
+      "-",
+      "\u003cp\u003eFeel free to use this room if you like.\u003c/p\u003e"
     ],
     [
       "klapper",
@@ -826,8 +826,8 @@
       "804",
       "Workshop",
       "Empty Workshop Room ",
-      "Speaker name TBD",
-      "\u003cp\u003eDescription TBD\u003c/p\u003e"
+      "-",
+      "\u003cp\u003eFeel free to use this room if you like.\u003c/p\u003e"
     ],
     [
       "neslund",
@@ -874,30 +874,30 @@
       "workshop_terra.jpg"
     ],
     [
-      "nimbali",
+      "63",
       "63",
       "2",
       "grey",
       "3:15 PM",
       "4:00 PM",
       "905",
-      "Talk",
-      "You're Hired: Decoding Interviews",
-      "Shreya Nimbali",
-      "\u003cp\u003eEver felt like interviews are a puzzle with missing pieces? Join this session to uncover what’s beyond the LeetCode clichés. Tech interviews are icebergs, with coding as just the tip. Learn to leverage job descriptions, navigate the six interview dimensions, and refine your approach. Bid farewell to the mundane STAR method for behavioral interviews; embrace a fresh perspective. As a junior in college and soon-to-be Amazon intern with two stints at Delta Air Lines, the speaker spills tea from interview trenches. Ready to ace your next interview? This session is your exclusive backstage pass.\u003c/p\u003e"
+      "Session",
+      "Empty Session Room",
+      "-",
+      "\u003cp\u003eFeel free to use this room if you like.\u003c/p\u003e"
     ],
     [
-      "64",
+      "nimbali",
       "64",
       "2",
       "white",
       "4:15 PM",
       "5:00 PM",
       "803",
-      "Session",
-      "Empty Session Room",
-      "Speaker name TBD",
-      "\u003cp\u003eDescription TBD\u003c/p\u003e"
+      "Talk",
+      "You're Hired: Decoding Interviews",
+      "Shreya Nimbali",
+      "\u003cp\u003eEver felt like interviews are a puzzle with missing pieces? Join this session to uncover what’s beyond the LeetCode clichés. Tech interviews are icebergs, with coding as just the tip. Learn to leverage job descriptions, navigate the six interview dimensions, and refine your approach. Bid farewell to the mundane STAR method for behavioral interviews; embrace a fresh perspective. As a junior in college and soon-to-be Amazon intern with two stints at Delta Air Lines, the speaker spills tea from interview trenches. Ready to ace your next interview? This session is your exclusive backstage pass.\u003c/p\u003e"
     ],
     [
       "65",
@@ -909,8 +909,8 @@
       "804",
       "Workshop",
       "Empty Workshop Room ",
-      "Speaker name TBD",
-      "\u003cp\u003eDescription TBD\u003c/p\u003e"
+      "-",
+      "\u003cp\u003eFeel free to use this room if you like.\u003c/p\u003e"
     ],
     [
       "goldsaito-1",
@@ -935,8 +935,8 @@
       "903",
       "Session",
       "Empty Session Room",
-      "Speaker name TBD",
-      "\u003cp\u003eDescription TBD\u003c/p\u003e"
+      "-",
+      "\u003cp\u003eFeel free to use this room if you like.\u003c/p\u003e"
     ],
     [
       "68",
