@@ -157,30 +157,30 @@
       "\u003cp\u003eDescription TBD\u003c/p\u003e"
     ],
     [
-      "11",
+      "hakkarainen",
       "11",
       "1",
       "grey",
       "10:30 AM",
       "11:15 AM",
       "805",
-      "Session",
-      "Session name TBD",
-      "Speaker name TBD",
-      "\u003cp\u003eDescription TBD\u003c/p\u003e"
+      "Group discussion",
+      "Techno-determinism",
+      "Karl Hakkarainen",
+      "\u003cp\u003eThe Luddites fought a losing battle against the machines of 19th century England. Ted Kaczynski made and mailed crude bombs in his effort to break the machines of the modern era. \nThese folks didn't fail because their tactics weren't good enough. Technology has, in the words of Langdon Winner, a \"self-propelling, self-sustaining, ineluctable flow.\"  We can direct that flow, but it will always find a path. \nSo goes the thinking of the technological determinists. Are they right? Are they evil? Do we have meaningful, enduring choices or are we just along for the ride?\u003c/p\u003e"
     ],
     [
-      "goldsaito-2",
+      "12",
       "12",
       "1",
       "grey",
       "10:30 AM",
       "11:15 AM",
       "903",
-      "Talk",
-      "Taking AI outside the chatbox",
-      "Jonah Goldsaito",
-      "\u003cp\u003eMost people’s first experiences with generative AI was in a chat context.\u003c/p\u003e\n\u003cp\u003eBut LLMs (the tech behind models like GPT4) can generate anything that can be represented in text, from SVGs, to chess moves, to whatever structured data you need in your app. \u003c/p\u003e\n\u003cp\u003ePrompt engineering is necessary, but mostly not technical at all, and we’ll start with the anatomy of a prompt. This expands much further when you chain prompts together to pull in or push out data (LangChain). \u003c/p\u003e\n\u003cp\u003eSuddenly anyone with a product hypothesis can rapidly prototype and validate complex user interactions. Let’s get you started.\u003c/p\u003e"
+      "Session",
+      "Empty Session Room",
+      "Speaker name TBD",
+      "\u003cp\u003eDescription TBD\u003c/p\u003e"
     ],
     [
       "13",
@@ -280,7 +280,7 @@
       "3:00 PM",
       "805",
       "Session",
-      "Session name TBD",
+      "Empty Session Room",
       "Speaker name TBD",
       "\u003cp\u003eDescription TBD\u003c/p\u003e"
     ],
@@ -332,7 +332,7 @@
       "4:00 PM",
       "803",
       "Session",
-      "Session name TBD",
+      "Empty Session Room",
       "Speaker name TBD",
       "\u003cp\u003eDescription TBD\u003c/p\u003e"
     ],
@@ -441,17 +441,17 @@
       "\u003cp\u003ePublic Interest Technology (PIT) is an emerging field that asks us to create technical solutions that center the lives of people, equity, inclusion, and accountability to address pressing problems.  While PIT continues to grow, all technologists can learn how to approach problems like a public interest technologist to ensure technology works to serve and protect those who use it by delivering better outcomes.\u003c/p\u003e\n\u003cp\u003eThis discussion will introduce the practice of PIT and how everyone can critically assess technology's ethical and social implementation across all sectors. \u003c/p\u003e"
     ],
     [
-      "goldsaito-1",
+      "32",
       "32",
       "1",
       "white",
       "4:15 PM",
       "5:00 PM",
       "903",
-      "Talk",
-      "An AR transmission from the future, launched at Tribeca",
-      "Jonah Goldsaito",
-      "\u003cp\u003eThis is the story of creating ReachYou, a piece of sci fi episodic communal art in augmented reality. An experiment in humane technology. And something made with pure joy.\u003c/p\u003e\n\u003cp\u003eReachYou was the product of a multi-generational nomadic experience. A rebirth of a live, software-assisted performance in Kazakhstan by the Goldsaitos. And a reaction to the ever growing attention economy and eventually our isolation (magnified by COVID). \u003c/p\u003e\n\u003cp\u003eJonah, the presenter, was the sole engineer, designer, and visual artist.\u003c/p\u003e\n\u003cp\u003eCome hear the story of its iterative creation and path to the Tribeca Film Festival.\u003c/p\u003e"
+      "Session",
+      "Empty Session Room",
+      "Speaker name TBD",
+      "\u003cp\u003eDescription TBD\u003c/p\u003e"
     ],
     [
       "33",
@@ -549,7 +549,7 @@
       "10:15 AM",
       "804",
       "Workshop",
-      "Empty Workshop Room ",
+      "Empty Session Room",
       "Speaker name TBD",
       "\u003cp\u003eDescription TBD\u003c/p\u003e"
     ],
@@ -752,17 +752,17 @@
       "\u003cp\u003eDescription TBD\u003c/p\u003e"
     ],
     [
-      "hakkarainen",
+      "goldsaito-2",
       "54",
       "2",
       "white",
       "2:15 PM",
       "3:00 PM",
       "805",
-      "Group discussion",
-      "Techno-determinism",
-      "Karl Hakkarainen",
-      "\u003cp\u003eThe Luddites fought a losing battle against the machines of 19th century England. Ted Kaczynski made and mailed crude bombs in his effort to break the machines of the modern era. \nThese folks didn't fail because their tactics weren't good enough. Technology has, in the words of Langdon Winner, a \"self-propelling, self-sustaining, ineluctable flow.\"  We can direct that flow, but it will always find a path. \nSo goes the thinking of the technological determinists. Are they right? Are they evil? Do we have meaningful, enduring choices or are we just along for the ride?\u003c/p\u003e"
+      "Talk",
+      "Taking AI outside the chatbox",
+      "Jonah Goldsaito",
+      "\u003cp\u003eMost people’s first experiences with generative AI was in a chat context.\u003c/p\u003e\n\u003cp\u003eBut LLMs (the tech behind models like GPT4) can generate anything that can be represented in text, from SVGs, to chess moves, to whatever structured data you need in your app. \u003c/p\u003e\n\u003cp\u003ePrompt engineering is necessary, but mostly not technical at all, and we’ll start with the anatomy of a prompt. This expands much further when you chain prompts together to pull in or push out data (LangChain). \u003c/p\u003e\n\u003cp\u003eSuddenly anyone with a product hypothesis can rapidly prototype and validate complex user interactions. Let’s get you started.\u003c/p\u003e"
     ],
     [
       "buxton",
@@ -895,7 +895,7 @@
       "5:00 PM",
       "803",
       "Session",
-      "Session name TBD",
+      "Empty Session Room",
       "Speaker name TBD",
       "\u003cp\u003eDescription TBD\u003c/p\u003e"
     ],
@@ -913,17 +913,17 @@
       "\u003cp\u003eDescription TBD\u003c/p\u003e"
     ],
     [
-      "66",
+      "goldsaito-1",
       "66",
       "2",
       "white",
       "4:15 PM",
       "5:00 PM",
       "805",
-      "Session",
-      "Session name TBD",
-      "Speaker name TBD",
-      "\u003cp\u003eDescription TBD\u003c/p\u003e"
+      "Talk",
+      "An AR transmission from the future, launched at Tribeca",
+      "Jonah Goldsaito",
+      "\u003cp\u003eThis is the story of creating ReachYou, a piece of sci fi episodic communal art in augmented reality. An experiment in humane technology. And something made with pure joy.\u003c/p\u003e\n\u003cp\u003eReachYou was the product of a multi-generational nomadic experience. A rebirth of a live, software-assisted performance in Kazakhstan by the Goldsaitos. And a reaction to the ever growing attention economy and eventually our isolation (magnified by COVID). \u003c/p\u003e\n\u003cp\u003eJonah, the presenter, was the sole engineer, designer, and visual artist.\u003c/p\u003e\n\u003cp\u003eCome hear the story of its iterative creation and path to the Tribeca Film Festival.\u003c/p\u003e"
     ],
     [
       "67",
@@ -934,7 +934,7 @@
       "5:00 PM",
       "903",
       "Session",
-      "Session name TBD",
+      "Empty Session Room",
       "Speaker name TBD",
       "\u003cp\u003eDescription TBD\u003c/p\u003e"
     ],
